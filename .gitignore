@@ -1,0 +1,24 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Certificate and key files
+*.key
+*.cert
+
+# Environment files
+.env
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*~
