@@ -1,29 +1,40 @@
 #!/bin/bash
 
-# Detect the package manager and list user-installed packages (excluding dependencies and system libraries)
+# Detect the package manager and list top-level user-installed applications
 
 if command -v apt-mark &> /dev/null; then
-    # Debian/Ubuntu and derivatives (e.g., Linux Mint)
-    
-    # Use dpkg-query to get only the main package names
-    output=$(dpkg-query -f '${Package}\n' -W | grep -v '^lib')
-    
-    if [ -z "$output" ]; then
-        echo "No manually installed packages found."
+    # Debian/Ubuntu-based system
+
+    # Get manually installed packages
+    output=$(apt-mark showmanual)
+
+    # Filter out likely non-GUI/system packages (simple heuristic)
+    filtered=$(echo "$output" | grep -Ev '^(lib|gir1\.|fonts-|python|gstreamer|linux-|xserver|mesa-|gnome-|kde-|qt[0-9]?|ubuntu|language-|task-)' | sort)
+
+    if [ -z "$filtered" ]; then
+        echo "No user-level applications found."
     else
-        echo "$output"
+        echo "$filtered"
     fi
 
 elif command -v dnf &> /dev/null; then
-    # Fedora, CentOS, RHEL
-    
-    # Use dnf to list user-installed packages and exclude 'lib*' packages
-    output=$(dnf repoquery --userinstalled --qf '%{name}' | grep -v '^lib')
-    
-    if [ -z "$output" ]; then
-        echo "No manually installed packages found."
+    # Fedora/RHEL-based system
+
+    if ! command -v repoquery &> /dev/null; then
+        echo "repoquery not found. Please install dnf-plugins-core."
+        exit 1
+    fi
+
+    # List user-installed packages
+    output=$(dnf repoquery --userinstalled --qf '%{name}')
+
+    # Filter similarly to apt
+    filtered=$(echo "$output" | grep -Ev '^(lib|python|gstreamer|fonts-|kernel-|mesa-|xorg-|gtk|gnome-|kde-|qt[0-9]?|language|desktop-|x11|adwaita|themes?|systemd|grub)' | sort)
+
+    if [ -z "$filtered" ]; then
+        echo "No user-level applications found."
     else
-        echo "$output"
+        echo "$filtered"
     fi
 
 else
