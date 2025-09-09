@@ -7,7 +7,8 @@ app.use(express.json());
 
 // Handle POST requests from clients
 app.post('/message', (req, res) => {
-    console.log('Received from client:', req.body.message);
+    // Log the received new_packages array
+    console.log('Received from client:', req.body.new_packages);
     res.json({ reply: 'Message received' });
 });
 
