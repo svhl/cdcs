@@ -57,8 +57,10 @@ execFile(path.join(__dirname, '../juan/default_packages.sh'), async (err, stdout
                 }
                 if (mac_address !== 'unknown') break;
             }
+            // Get current date and time in ISO format
+            const timestamp = new Date().toISOString();
             // Prepare data to send as JSON
-            const postData = JSON.stringify({ msg_type: 1001, username, mac_address, new_packages: newPackages });
+            const postData = JSON.stringify({ msg_type: 1001, timestamp, username, mac_address, new_packages: newPackages });
 
             const options = {
                 hostname: '192.168.174.129',
