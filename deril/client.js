@@ -11,9 +11,9 @@ const dbName = 'cdcs'; // <-- Replace with your DB name
 const collectionName = 'packages';
 
 // Run the shell script
-execFile(path.join(__dirname, '../juan/list_packages.sh'), async (err, stdout, stderr) => {
+execFile(path.join(__dirname, '../juan/default_packages.sh'), async (err, stdout, stderr) => {
     if (err) {
-        console.error('Error running list_packages.sh:', err);
+        console.error('Error running default_packages.sh:', err);
         return;
     }
     // Get list from script output
