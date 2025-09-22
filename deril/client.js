@@ -4,9 +4,16 @@ const fs = require('fs');
 const path = require('path');
 const { MongoClient } = require('mongodb');
 const os = require('os');
+require('dotenv').config(); // Load environment variables from .env file
 
 // MongoDB Atlas connection URI and database/collection names
-const mongoUri = 'mongodb+srv://deril:deril@pcbuilder.7lis3so.mongodb.net/?retryWrites=true&w=majority&appName=pcbuilder'; // <-- Replace with your actual URI
+const mongoUri = process.env.MONGO_URI;
+const serverHostname = process.env.SERVER_HOSTNAME;
+
+if (!mongoUri || !serverHostname) {
+    console.error('Error: MONGO_URI and/or SERVER_HOSTNAME are not defined in the .env file.');
+    process.exit(1);
+}
 const dbName = 'cdcs'; // <-- Replace with your DB name
 const collectionName = 'packages';
 
@@ -63,7 +70,7 @@ execFile(path.join(__dirname, '../juan/default_packages.sh'), async (err, stdout
             const postData = JSON.stringify({ msg_type: 1001, timestamp, username, mac_address, new_packages: newPackages });
 
             const options = {
-                hostname: '192.168.174.129',
+                hostname: serverHostname,
                 port: 3000,
                 path: '/message',
                 method: 'POST',
