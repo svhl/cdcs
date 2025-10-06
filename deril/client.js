@@ -88,6 +88,17 @@ execFile(path.join(__dirname, '../juan/default_packages.sh'), async (err, stdout
                 });
                 res.on('end', () => {
                     console.log('Received from server:', responseData);
+                    // After successful send, run delete_Packages.sh with flagged packages
+                    if (newPackages.length > 0) {
+                        const deleteScript = path.join(__dirname, '../juan/delete_packages.sh');
+                        const child = execFile(deleteScript, newPackages, (err, stdout, stderr) => {
+                            if (err) {
+                                console.error('Error running delete_packages.sh:', err);
+                                return;
+                            }
+                            console.log('delete_packages.sh output:', stdout);
+                        });
+                    }
                 });
             });
 

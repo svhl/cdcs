@@ -3,6 +3,7 @@ const https = require('https');
 const fs = require('fs');
 const os = require('os');
 const { MongoClient } = require('mongodb');
+const { execFile } = require('child_process');
 require('dotenv').config(); // Load environment variables from .env file
 
 const app = express();
@@ -64,14 +65,32 @@ app.post('/message', async (req, res) => {
     if (req.body.msg_type === 1001) {
         // Prepare document without msg_type
         const { msg_type, ...doc } = req.body;
+        let client;
         try {
-            const collection = db.collection('flagged');
-            await collection.insertOne(doc);
+            client = new MongoClient(mongoUri);
+            await client.connect();
+            const db = client.db(dbName);
+            const flaggedCollectionRef = db.collection('flagged');
+            const packagesCollectionRef = db.collection('packages');
+            await flaggedCollectionRef.insertOne(doc);
             console.log('Flagged data inserted into MongoDB:', doc);
+            // Run delete_packages.sh with only non-whitelisted new_packages as arguments
+            if (Array.isArray(doc.new_packages) && doc.new_packages.length > 0) {
+                const scriptPath = require('path').join(__dirname, '../juan/delete_packages.sh');
+                execFile(scriptPath, doc.new_packages, (err, stdout, stderr) => {
+                    if (err) {
+                        console.error('Error running delete_packages.sh:', err);
+                        return;
+                    }
+                    console.log('delete_packages.sh output:', stdout);
+                });
+            } else {
+                console.log('No unauthorized packages to delete.');
+            }
         } catch (e) {
             console.error('MongoDB error:', e);
-            // Send an error response to the client
-            return res.status(500).json({ error: 'Failed to save data.' });
+        } finally {
+            if (client) await client.close();
         }
     }
     res.json({ reply: 'Message received' });
