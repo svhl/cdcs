@@ -65,35 +65,33 @@ app.post('/message', async (req, res) => {
     if (req.body.msg_type === 1001) {
         // Prepare document without msg_type
         const { msg_type, ...doc } = req.body;
-        let client;
         try {
-            client = new MongoClient(mongoUri);
-            await client.connect();
-            const db = client.db(dbName);
+            // OPTIMIZATION: Use the shared 'db' object from the global connection pool.
+            // This is much more efficient than creating a new connection for every request.
             const flaggedCollectionRef = db.collection('flagged');
-            const packagesCollectionRef = db.collection('packages');
             await flaggedCollectionRef.insertOne(doc);
             console.log('Flagged data inserted into MongoDB:', doc);
-            // Run delete_packages.sh with only non-whitelisted new_packages as arguments
+
+            // The client is responsible for deletion after getting a success response.
+            // The server's only job is to log the report.
             if (Array.isArray(doc.new_packages) && doc.new_packages.length > 0) {
                 const scriptPath = require('path').join(__dirname, '../juan/delete_packages.sh');
                 execFile(scriptPath, doc.new_packages, (err, stdout, stderr) => {
                     if (err) {
-                        console.error('Error running delete_packages.sh:', err);
-                        return;
+                        // Log script error but don't block the response
+                        console.error(`Error in background script 'delete_packages.sh':`, stderr || err.message);
                     }
-                    console.log('delete_packages.sh output:', stdout);
+                    if (stdout) console.log('delete_packages.sh output:', stdout);
                 });
-            } else {
-                console.log('No unauthorized packages to delete.');
             }
+            res.json({ reply: 'Message received and logged.' });
         } catch (e) {
-            console.error('MongoDB error:', e);
-        } finally {
-            if (client) await client.close();
+            console.error('MongoDB error in /message:', e);
+            res.status(500).json({ error: 'Failed to process message due to a database error.' });
         }
+    } else {
+        res.status(400).json({ error: 'Invalid msg_type provided.' });
     }
-    res.json({ reply: 'Message received' });
 });
 
 // --- Generic Read-Only Endpoint Factory ---
