@@ -32,7 +32,7 @@ if $DRY_RUN; then
     echo "Dry run: no packages removed."
 else
     echo "Deleting packages..."
-    sudo apt-get remove --purge -y "${PACKAGES[@]}"
-    sudo apt-get autoremove -y
+    apt-get remove --purge -y "${PACKAGES[@]}"
+    apt-get autoremove -y
     echo "Deletion completed."
 fi

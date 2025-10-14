@@ -1,5 +1,6 @@
 const https = require('https');
 const { execFile } = require('child_process');
+const net = require('net');
 const fs = require('fs');
 const path = require('path');
 const { MongoClient } = require('mongodb');
@@ -50,64 +51,82 @@ execFile(path.join(__dirname, '../juan/default_packages.sh'), async (err, stdout
                 console.log('No new packages to send.');
                 return;
             }
-            // Get username
-            const username = os.userInfo().username;
-            // Get MAC address of first non-internal interface
-            let mac_address = 'unknown';
-            const nets = os.networkInterfaces();
-            for (const name of Object.keys(nets)) {
-                for (const net of nets[name]) {
-                    if (!net.internal && net.mac && net.mac !== '00:00:00:00:00:00') {
-                        mac_address = net.mac;
-                        break;
-                    }
-                }
-                if (mac_address !== 'unknown') break;
-            }
-            // Get current date and time in ISO format
-            const timestamp = new Date().toISOString();
-            // Prepare data to send as JSON
-            const postData = JSON.stringify({ msg_type: 1001, timestamp, username, mac_address, new_packages: newPackages });
 
-            const options = {
-                hostname: serverHostname,
-                port: 3000,
-                path: '/message',
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Content-Length': Buffer.byteLength(postData)
-                },
-                rejectUnauthorized: false
-            };
+            // --- NEW LOGIC: Delete packages first, then report to server ---
 
-            const req = https.request(options, (res) => {
-                let responseData = '';
-                res.on('data', (chunk) => {
-                    responseData += chunk;
-                });
-                res.on('end', () => {
-                    console.log('Received from server:', responseData);
-                    // After successful send, run delete_Packages.sh with flagged packages
-                    if (newPackages.length > 0) {
-                        const deleteScript = path.join(__dirname, '../juan/delete_packages.sh');
-                        const child = execFile(deleteScript, newPackages, (err, stdout, stderr) => {
-                            if (err) {
-                                console.error('Error running delete_packages.sh:', err);
-                                return;
+            const SOCKET_PATH = '/var/run/cdcs-helper.sock';
+            const helperClient = net.createConnection({ path: SOCKET_PATH });
+
+            helperClient.on('connect', () => {
+                console.log('Client: Connected to helper service to delete packages.');
+                const request = {
+                    action: 'delete_packages',
+                    packages: newPackages
+                };
+                helperClient.write(JSON.stringify(request));
+            });
+
+            helperClient.on('data', (data) => {
+                const response = JSON.parse(data.toString());
+
+                // --- STEP 2: If deletion was successful, now report to the server ---
+                if (response.status === 'success') {
+                    // Provide a clean, single-line confirmation of the deletion.
+                    console.log(`Successfully deleted packages: ${response.deletedPackages.join(', ')}`);
+                    console.log('Now reporting deletion to the central server...');
+
+                    // Get system info for the report
+                    const username = os.userInfo().username;
+                    let mac_address = 'unknown';
+                    const nets = os.networkInterfaces();
+                    for (const name of Object.keys(nets)) {
+                        for (const net of nets[name]) {
+                            if (!net.internal && net.mac && net.mac !== '00:00:00:00:00:00') {
+                                mac_address = net.mac;
+                                break;
                             }
-                            console.log('delete_packages.sh output:', stdout);
-                        });
+                        }
+                        if (mac_address !== 'unknown') break;
                     }
-                });
+                    const timestamp = new Date().toISOString();
+
+                    // Use the list of packages confirmed deleted by the helper
+                    const postData = JSON.stringify({ msg_type: 1001, timestamp, username, mac_address, new_packages: response.deletedPackages });
+
+                    const options = {
+                        hostname: serverHostname,
+                        port: 3000,
+                        path: '/message',
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Content-Length': Buffer.byteLength(postData)
+                        },
+                        rejectUnauthorized: false
+                    };
+
+                    const req = https.request(options, (res) => {
+                        // We don't need to see the server's raw response, just confirm it was logged.
+                        res.on('data', () => { /* Do nothing with the response chunks */ });
+                        res.on('end', () => {
+                            console.log('Deletion was logged successfully by the server.');
+                        });
+                    });
+
+                    req.on('error', (e) => console.error('Error reporting to server:', e));
+                    req.write(postData);
+                    req.end();
+
+                } else {
+                    console.error('Deletion failed. Will not report to server. Error:', response.message);
+                }
+                helperClient.end();
             });
 
-            req.on('error', (e) => {
-                console.error(e);
+            helperClient.on('error', (err) => {
+                console.error('Client: Could not connect to helper service. Is it running as root?', err.message);
             });
 
-            req.write(postData);
-            req.end();
         } catch (e) {
             console.error('MongoDB error:', e);
         } finally {

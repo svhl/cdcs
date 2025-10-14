@@ -72,18 +72,8 @@ app.post('/message', async (req, res) => {
             await flaggedCollectionRef.insertOne(doc);
             console.log('Flagged data inserted into MongoDB:', doc);
 
-            // The client is responsible for deletion after getting a success response.
-            // The server's only job is to log the report.
-            if (Array.isArray(doc.new_packages) && doc.new_packages.length > 0) {
-                const scriptPath = require('path').join(__dirname, '../juan/delete_packages.sh');
-                execFile(scriptPath, doc.new_packages, (err, stdout, stderr) => {
-                    if (err) {
-                        // Log script error but don't block the response
-                        console.error(`Error in background script 'delete_packages.sh':`, stderr || err.message);
-                    }
-                    if (stdout) console.log('delete_packages.sh output:', stdout);
-                });
-            }
+            // Deletion is now handled by the client via its local helper service.
+            // The server's only responsibility is to log the flagged packages.
             res.json({ reply: 'Message received and logged.' });
         } catch (e) {
             console.error('MongoDB error in /message:', e);
