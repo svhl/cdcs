@@ -3,7 +3,7 @@ description,priority,category
 "This is a follow-up to your previous request #98765 ""Access Issue with Shared Network Drive"". I'm having trouble accessing the shared network drive. It used to work fine, but now I'm getting permission errors that seem quite complex. I believe it might require a detailed audit and manual adjustment to resolve. Here's a screenshot of the error message (https://acme.co/share/error-screenshot) . I've tried basic troubleshooting steps like checking my network connection and restarting my computer. Thanks, and please let me know if there's anything else I should try!",Medium,Network
 Hey team! We're experiencing some intermittent crashes on specific user machines. It seems like there might be a software conflict. Could you help us out with a detailed log analysis and some manual configuration adjustments? Thanks a ton!,High,Software
 We need to set up a new Google Calendar for team scheduling. Please assist with the following steps: - Creating the calendar - Sharing with team members - Setting permissions,Low,Software
-Jordan Smith is part of the Project Management team and requires access to the Asana project to coordinate tasks and timelines effectively.,Medium,Software
+Jordan Smith is part of the Project Management team and requires access to the Asana project to coordinate tasks and timelines effectively.,Medium,Access
 Email client fails to sync with server due to suspected corrupted profile requiring manual profile reconstruction and data recovery,High,Software
 I am unable to access my email account as I have forgotten the password. Could you please assist me in resetting it?,Medium,Access
 "Hello IT Team, I've noticed that the group policies on my workstation are not being applied consistently. Some security settings seem to revert to default after a restart, and certain applications are not being restricted as expected. This inconsistency is causing potential security vulnerabilities. Could you please investigate and ensure that the correct group policies are enforced across all workstations? Thank you!",High,Security
@@ -16,11 +16,11 @@ Hi. Could you please grant me access to the Slack workspace for our team? I need
 "Hi Team, Can you please provide instructions on how to update my personal profile information on the company intranet? Please let me know if you need any other information. Best, Jamie Lee",Medium,Software
 "Hey IT team, We need access to the DBox Team Folder for our project collaboration. Please follow the instructions in the link below to grant access. Our team is ready to test the access permissions to ensure everything is set up correctly.",Medium,Access
 We've been experiencing intermittent slow internet connection on the office floor. An on-site network assessment and configuration adjustment is required to resolve this issue. Please coordinate with the network team to schedule a visit and perform the necessary adjustments. Ensure that all network devices are checked and optimized for performance.,High,Network
-"Jane, a graphic designer on the Acme team, is requesting access to Adobe CC Suite to enhance her design capabilities and collaborate on creative projects.",Medium,Software
+"Jane, a graphic designer on the Acme team, is requesting access to Adobe CC Suite to enhance her design capabilities and collaborate on creative projects.",Medium,Access
 I'm unable to connect to the corporate Wi-Fi network. It seems to be a device-specific configuration issue. Could you look into this and help adjust the network settings and security protocols?,Medium,Network
-"Hi there, I've just joined the Product team and need access to the JIRA Dashboard. Could you assist with this? Appreciate it!",Medium,Software
+"Hi there, I've just joined the Product team and need access to the JIRA Dashboard. Could you assist with this? Appreciate it!",Medium,Access
 "Attention Acme IT,The marketing team requires access to a shared network drive to enhance collaboration and streamline our workflow. Please review the request details below and grant the necessary permissions to ensure seamless access for all team members.",Medium,Network
-"Please forward this email to your IT department. This is a reminder that we'll be granting access to Adobe Photoshop and Illustrator tools on October 12, 2023, at 9:00 a.m. (PT). Failure to take the necessary steps below may result in delays in accessing these tools: This update only applies to users with active Adobe Creative Cloud subscriptions.",Medium,Software
+"Please forward this email to your IT department. This is a reminder that we'll be granting access to Adobe Photoshop and Illustrator tools on October 12, 2023, at 9:00 a.m. (PT). Failure to take the necessary steps below may result in delays in accessing these tools: This update only applies to users with active Adobe Creative Cloud subscriptions.",Medium,Access
 "Hi IT Team, Hope you're all doing well. I've been informed that I should have access to the SFDC Platform for our upcoming sales initiatives, but it seems I don't have the necessary permissions. I've attached a screenshot of the error message I receive when trying to log in. Please advise on how to proceed. Many thanks, Alex",Medium,Access
 "I am experiencing intermittent data loss in our cloud-based application, which seems to be due to synchronization issues. This requires a detailed investigation and manual reconciliation of data discrepancies across multiple user accounts and devices.",High,Software
 "Hi, I'm having trouble accessing the cloud-based collaboration tool, AcmeCollab. It seems like there might be an issue with my account provisioning. I should have access to the project management features, but they're currently unavailable. Could someone look into my account settings and permissions to resolve this? Thanks.",High,Access
@@ -44,8 +44,8 @@ Unable to access due to suspected complex API integration issues. Requires detai
 "Hi IT Team, I'm experiencing an issue with accessing the shared network drive. Despite using the correct credentials and having the necessary permissions, I'm unable to map the drive. Could you please assist? Thank you.",Medium,Network
 "Hello, Please may I have the instructions for setting up multi-factor authentication for accessing the company's project management software? I want to ensure my account is secure.",Medium,Security
 Hey IT! We're experiencing an issue with Google Calendar where events are being duplicated across multiple user accounts. Could you assist us in resolving this? Thanks!,Low,Software
-"Please grant access to the ""Marketing Campaigns"" Trello board for the new team members. They need to collaborate on upcoming projects and require viewing and editing permissions.",Medium,Software
-"I'm trying to access Premiere Pro for video editing, but it seems like I don't have the necessary permissions to use the software. When I attempt to open it, a message pops up saying I need admin rights. I've checked with my team, and they confirmed that I should have access. Is there a specific setting or security control that's blocking my access? I also tried reinstalling the software, but the issue persists.",Medium,Software
+"Please grant access to the ""Marketing Campaigns"" Trello board for the new team members. They need to collaborate on upcoming projects and require viewing and editing permissions.",Medium,Access
+"I'm trying to access Premiere Pro for video editing, but it seems like I don't have the necessary permissions to use the software. When I attempt to open it, a message pops up saying I need admin rights. I've checked with my team, and they confirmed that I should have access. Is there a specific setting or security control that's blocking my access? I also tried reinstalling the software, but the issue persists.",Medium,Access
 "We're experiencing compatibility issues while trying to configure multi-factor authentication on our legacy systems. The current setup doesn't support the new authentication protocols, and we need guidance on how to proceed without compromising security.",High,Security
 "Hi IT Team, I hope this message finds you well. I'm reaching out to request detailed instructions on how to set up multi-factor authentication for accessing the company's HR portal. Ensuring the security of our HR data is a top priority, and I want to make sure I'm following the correct procedures. Could you please provide a step-by-step guide or direct me to the appropriate resources? Thank you for your assistance!",Medium,Security
 Collaborate with IT to investigate and resolve OAuth token misconfiguration preventing access to cloud-based CRM. Current authentication settings and token refresh protocols require manual adjustment for proper functionality.,High,Software
@@ -82,505 +82,202 @@ Assistance Required for Troubleshooting Google Calendar Not Displaying Correct T
 "User experiencing persistent issues with automated email filtering system where legitimate emails are incorrectly marked as spam, requiring detailed investigation and manual adjustment of filtering rules and potential whitelist updates.",High,Software
 Hey IT team! Could you please provide instructions on resolving common connectivity issues when accessing the remote desktop? Thanks!,Low,Network
 "Hi there, I'm having trouble with our digital signage system. The content isn't updating as it should, and I'm not sure if it's a settings issue or something else. I've tried reconfiguring the content management settings manually, but the problem persists. Could it be a network or hardware issue? Any help would be appreciated. Thanks!",High,Hardware
-I need access to the Lightroom editing tools for my upcoming project.,Medium,Software
+I need access to the Lightroom editing tools for my upcoming project.,Medium,Access
 "Hi team! I'm having trouble connecting to the office printer. It seems like the connection drops intermittently, and I'm not sure how to resolve it. Could you provide some instructions or tips on how to fix this? Thanks a lot! Jamie Lee",Medium,Hardware
 "Hi,Could you please provide instructions on troubleshooting common VPN connection errors? Our team is experiencing frequent disconnections and error messages. Thank you!",High,Network
 "Anyone else dealing with paper jams in the office printer? I've tried the usual fixes like checking for stuck paper and ensuring the tray is aligned, but it keeps happening. Is there a standard procedure or guide we should be following?",Medium,Hardware
-"Hi, I need to get access to the ZD Support Portal to manage support tickets and update customer queries efficiently. Thanks! Alex",Medium,Access
+"Hi, I need to get access to the ZD Support Portal to manage support tickets and update customer queries efficiently. Thanks!",Medium,Access
 "Team, quick question. how do I get access to the GH codebase? thanks",Medium,Access
 "Hi there, Can you please investigate the access issue with our internal application? It seems to be related to the load balancer configuration. We suspect that the load balancing rules and server health checks might need manual adjustment. Your detailed investigation would be appreciated. Thanks.",High,Network
 "Hello IT Team! I've just received my new company-issued laptop and I'm having trouble configuring the VPN settings. I've followed the instructions provided in the onboarding email, but I can't seem to establish a connection. Could you provide some guidance or additional instructions? Here's a screenshot of the error message I'm encountering: https://acme.co/vpn-error-screenshot. Thanks in advance!",Medium,Network
-"Hi, I'm experiencing persistent issues with remote file access where files intermittently fail to sync correctly between local and cloud storage. This requires detailed investigation and manual adjustment of sync settings. Could you also inspect network connectivity and file permissions? Thanks, Alex",High,Network
-Need access to After Effects Animation Tools,Medium,Software
-"Hi, Could you please provide instructions on setting up a default printer on my company-issued laptop? Copying my manager to this email. Thanks, Alex Johnson",Low,Hardware
-"Hi Team, I'm unable to access my DBox Business Account. Could you please help me resolve this issue?  Alex Johnson",Medium,Access
+"Hi, I'm experiencing persistent issues with remote file access where files intermittently fail to sync correctly between local and cloud storage. This requires detailed investigation and manual adjustment of sync settings. Could you also inspect network connectivity and file permissions? Thanks.",High,Network
+Need access to After Effects Animation Tools,Medium,Access
+"Hi, Could you please provide instructions on setting up a default printer on my company-issued laptop? Copying my manager to this email. Thanks.",Low,Hardware
+"Hi Team, I'm unable to access my DBox Business Account. Could you please help me resolve this issue?",Medium,Access
 "Hey,  I've been trying to set up a dual monitor configuration on my workstation, but the monitors aren't being detected despite following all the connection guidelines provided. Could you please check if there's something wrong with the workstation settings or if I need any additional drivers? I need this resolved quickly as it's affecting my productivity.",High,Hardware
 "I wanted to inform you that the financial reports generated by the ERP system contain incorrect data, requiring immediate attention.",High,Software
 Investigate persistent issues with media files intermittently failing to render correctly in the digital asset management system. Requires detailed investigation and manual adjustment of media encoding settings. Potential inspection of server-side processing workflows needed.,High,Software
 Forgotten Password,Medium,Access
 "I attempted to follow the steps provided in the initial guide, but I'm still unable to update the remote desktop software to the latest version. Could you please provide further instructions or suggest any additional steps I might try?",Low,Software
 "Hello, Could I please get access to the DBox Team Collaboration Space? Thank you!",Medium,Access
-"Let me know if I need to split into multiple tickets. I'm experiencing persistent issues with SFTP where file uploads intermittently fail. I suspect there are complex server-side configuration errors that need detailed investigation. This might require manual adjustment of server settings and possibly inspecting network security protocols. Let me know if there's anything else yall need from me on this, thanks!  Alex Johnson",High,Network
+"Let me know if I need to split into multiple tickets. I'm experiencing persistent issues with SFTP where file uploads intermittently fail. I suspect there are complex server-side configuration errors that need detailed investigation. This might require manual adjustment of server settings and possibly inspecting network security protocols. Let me know if there's anything else y'all need from me on this, thanks!  Alex Johnson",High,Network
 I am experiencing issues accessing subfolders on their mobile device despite correct account setup and sync settings.,Medium,Access
 "Hi IT, Please provide detailed instructions on how to verify the completion of a data backup process using the company-approved software. Thank you!",Medium,Software
 Persistent issues with VPN client connection resulting in unexpected IP address assignment conflicts.,High,Network
-"Hey there! I'm having some trouble with our enterprise SSO system. My login attempts keep failing intermittently, and I suspect it might be due to some complex identity provider configuration errors. I think it might need a detailed investigation and possibly some manual adjustments to the SSO settings. There might also be a need to synchronize user attributes across multiple identity sources. No rush on this, just let me know what the best next steps would be! So sorry for the inconvenience. Thanks, Jamie",Medium,Software
+"Hey there! I'm having some trouble with our enterprise SSO system. My login attempts keep failing intermittently, and I suspect it might be due to some complex identity provider configuration errors. I think it might need a detailed investigation and possibly some manual adjustments to the SSO settings. There might also be a need to synchronize user attributes across multiple identity sources. No rush on this, just let me know what the best next steps would be! So sorry for the inconvenience.",Medium,Software
 "Persistent issues with document versioning failing to update correctly, requiring detailed investigation and manual adjustment of version control settings. Potential inspection of database integrity needed.",High,Software
-"Hi, I hope this message finds you well. I'm reaching out to request access to the JIRA Project Management Tool for our upcoming project. We need an admin to grant access to the JIRA tool (https://acme.co/jira-access) for our team. I've added @Jane Doe, @IT Support, @John Smith, and @Emily Davis as collaborators on this project to ensure the necessary permissions are in place. Thanks for your assistance!",Medium,Software
-Hi team! Can I please request access to InDesign & Acrobat tools for my account? Thank you in advance.,Medium,Software
-"Hi all! The IT team is requesting access to the ZDesk Support System for enhanced support capabilities. This access would streamline our support processes and improve response times for customer inquiries. The access would include the following features (based on our requirements):
-User Management
-Ticket Prioritization
-Analytics Dashboard
-Custom Reporting
-Integration with existing CRM",Medium,Software
-Hi! Can you please provide instructions for submitting a new article or announcement on the company intranet? Thank you!,Low,Access
+"Hi, I hope this message finds you well. I'm reaching out to request access to the JIRA Project Management Tool for our upcoming project. We need an admin to grant access to the JIRA tool for our team. I've added @Jane Doe, @IT Support, @John Smith, and @Emily Davis as collaborators on this project to ensure the necessary permissions are in place. Thanks for your assistance!",Medium,Access
+Hi team! Can I please request access to InDesign & Acrobat tools for my account? Thank you in advance.,Medium,Access
+"Hi all! The IT team is requesting access to the ZDesk Support System for enhanced support capabilities. This access would streamline our support processes and improve response times for customer inquiries. The access would include the following features (based on our requirements): User Management, Ticket Prioritization, Analytics Dashboard, Custom Reporting, Integration with existing CRM",Medium,Access
+Hi! Can you please provide instructions for submitting a new article on the company intranet? Thank you!,Low,Access
 Hello! I'm having trouble resetting my password as the security questions are not being recognized despite providing the correct answers. Could you please assist me with this issue?,Medium,Access
 Hi there! Could someone assist me with getting access to the Team Comms channels on Slack? Much appreciated!,Medium,Access
 "I'm unable to send emails from my mobile device due to what seems to be an SMTP server misconfiguration, even though my incoming mail settings are correct. I've double-checked everything and still no luck. Any guidance would be greatly appreciated!",Medium,Access
 Please grant access to the GH repository for collaboration purposes.,Medium,Access
-"Hi IT, Can you please grant me access to Trello? I need to organize our project tasks and collaborate with the team effectively. Thanks, Alex",Medium,Software
+"Hi IT, Can you please grant me access to Trello? I need to organize our project tasks and collaborate with the team effectively. Thanks.",Medium,Access
 "We have recently encountered persistent issues with our enterprise video conferencing system. Please investigate the following areas for potential resolution: Audio and video streams intermittently desynchronize, Manual adjustment of codec settings may be required, Inspection of network bandwidth and latency is recommended",High,Network
 "Hello team! Our enterprise MDM system is not applying device policies correctly, causing persistent issues. Can you please conduct a detailed investigation and manually adjust the policy configurations? Additionally, an inspection of device-specific compliance settings might be necessary. Thank you!",High,Software
 "Hi IT, I've been encountering persistent issues with our ERP system where the inventory levels are inaccurately reflected. This requires a detailed investigation and manual adjustment of the inventory tracking settings. Additionally, there might be a need to reconcile data discrepancies across multiple modules. I receive the message ""Data Mismatch Detected"" when attempting to update the inventory.",High,Software
 "Hi IT Team, I'm looking to set up multi-factor authentication for accessing our CRM system. Could you please provide the necessary instructions or direct me to the relevant resources? Thanks!",Medium,Software
 I used to have access to the ZDesk Agent Console from my dashboard. I don't see it anymore. Please advise.,Medium,Access
-"Hi, My name is Alex Johnson and I work in the project management office reporting to Lisa Wong (Director of Project Management). This is a request for access to the Trellies Project Management Platform to collaborate on ongoing projects and streamline our workflow. Please let me know if you need any further information. Thanks, Alex",Medium,Software
+"Hi, I work in the project management office reporting to Lisa Wong (Director of Project Management). This is a request for access to the Trellies Project Management Platform to collaborate on ongoing projects and streamline our workflow. Please let me know if you need any further information. Thanks.",Medium,Access
 "Hello, I recently set up multiple monitors on my workstation and would like to optimize the display settings for better productivity. Could you please provide instructions or guidance on how to adjust the settings effectively? I have a busy schedule this week and would appreciate any help you can offer at your earliest convenience.",Medium,Software
-"User experiencing persistent issues with enterprise content management system where document metadata fails to update correctly, requiring detailed investigation and manual adjustment of metadata configuration settings and potential inspection of database synchronization processes.",High,Software
+"I'm experiencing persistent issues with enterprise content management system where document metadata fails to update correctly, requiring detailed investigation and manual adjustment of metadata configuration settings and potential inspection of database synchronization processes.",High,Software
 "Hi IT Team, I need access to GDrive and GSheets for project collaboration. Can you please assist? Thanks!",Medium,Access
 "Intermittent failures in user account provisioning, requiring manual intervention",High,Software
-"Hello, We need to grant access to O365 Email & OneDrive services for the following team member: alex.jordan@acme.co. Thanks in advance!  Best regards, Jamie Lee",Medium,Access
-Hey IT! I'm running into some common error messages when trying to print from the office printer. Could you provide some step-by-step instructions on how to resolve these issues? I tried looking it up but got a bit lost. Any help would be appreciated! Thanks a bunch! Alex Johnson,Low,Hardware
+"Hello, We need to grant access to O365 Email & OneDrive services for the following team member: alex.jordan@acme.co. Thanks in advance!",Medium,Access
+Hey IT! I'm running into some common error messages when trying to print from the office printer. Could you provide some step-by-step instructions on how to resolve these issues? I tried looking it up but got a bit lost. Any help would be appreciated! Thanks a bunch!,Low,Hardware
 This Printer Connectivity Issue alert is to inform you that the office printer is not being recognized by the network despite correct configuration and driver installation.,Medium,Network
 "Hello IT, could you please investigate the persistent calendar sync issues on our enterprise collaboration platform? Shared calendar events are intermittently failing to sync across team members, which requires manual adjustment of calendar synchronization settings. A detailed inspection of user account configurations might be necessary.",High,Software
 "Hello IT, I need assistance with setting up email notifications on my mobile device. I've tried following the instructions on the Acme portal, but I'm still not receiving any alerts. Could you provide a step-by-step guide or let me know if there's a specific setting I might be missing? I attempted to find a solution through the helpdesk, but the page was showing a 500 error. Please advise.",Low,Access
 I am experiencing persistent issues with our enterprise firewall where specific outbound traffic is intermittently blocked. This requires a detailed investigation and manual adjustment of the firewall rules. Could you also inspect the network traffic logs to identify any anomalies?,High,Network
-"Hi, I'm experiencing persistent issues with our enterprise data analytics platform. The scheduled data refreshes intermittently fail, and I need to manually adjust the data source connections. Could you please investigate this and inspect the ETL process configurations? Thanks, Alex",High,Software
+"Hi, I'm experiencing persistent issues with our enterprise data analytics platform. The scheduled data refreshes intermittently fail, and I need to manually adjust the data source connections. Could you please investigate this and inspect the ETL process configurations?",High,Software
 Can't seem to figure out how to map a shared network drive on my company laptop. Could you provide some instructions?,Low,Network
-"Hey, IT team. I'm having trouble accessing certain pages on our intranet. My network configuration and browser settings seem correct, but the pages just won't load. Any idea who I should reach out to for help?",Medium,Network
+"Hey, IT team. I'm having trouble accessing certain pages on our intranet. My network configuration and browser settings seem correct, but the pages just won't load.",Medium,Network
 "Hi IT Team, I'm having trouble accessing the GitHub organization repositories. Could you please grant me the necessary permissions? I need access to collaborate on upcoming projects. Let me know if you need any more information from my side. Thanks!",Medium,Access
-Please provide detailed instructions on how to schedule regular data backup reminders using the company-approved software. Ensure that the steps are clear and easy to follow.,Medium,Software
+Please provide detailed instructions on how to schedule regular data backup reminders using the company-approved software. Ensure that the steps are clear and easy to follow.,Low,Software
 This request is to inform you that assistance is needed to set up multi-factor authentication for accessing the company's time tracking system.,Medium,Security
 Hi - I'm experiencing persistent issues with our CRM system where automated workflows intermittently fail to trigger. This requires a detailed investigation and manual adjustment of workflow configurations. Could you please look into this and inspect the integration points with external services? Thank you!,High,Software
-We are experiencing persistent slow internet connection on a specific workstation despite network-wide stability and correct configuration settings. Please assist in diagnosing and resolving this issue.,Medium,Network
+We are experiencing persistent slow internet connection on a specific workstation despite network-wide stability and correct configuration settings. Please assist in diagnosing and resolving this issue.,Low,Network
 "Member of the IT security team experiencing persistent issues with enterprise endpoint security software. Threat detection alerts are intermittently not generated, requiring detailed investigation and manual adjustment of detection rules. Potential inspection of software update logs needed.",High,Security
-"The enterprise network monitoring system is experiencing intermittent failures in triggering alerts for specific network segments. Manual adjustments to monitoring configurations are needed, and a detailed investigation into the network topology and device status is required. Please review the following actions: 1. Inspect monitoring configurations for affected segments. 2. Verify network topology and device status. 3. Adjust configurations as necessary to ensure alerts are triggered correctly. If further assistance is needed, please escalate to the network engineering team.",High,Network
-Please grant me access to Illustrator & Photoshop tools as they are essential for my design tasks.,Low,Software
-"Hi IT, Please grant access to Asana for j.doe@acme.co. Thanks, Jane Smith Project Management Team",Low,Software
-"The following user reports inconsistent access to department-specific resources despite correct permissions and network configuration. Investigation required to resolve access issues. Steps to follow: 1. Verify user permissions in the intranet system. 2. Check network configuration settings for any discrepancies. 3. Ensure all department-specific resources are correctly mapped to the user's profile. If issues persist, please escalate to the network team for further analysis. User: Alex Johnson Email: a.johnson@acme.co",High,Network
-Inability to access specific folders on shared network drive despite correct mapping and permissions.,High,Network
+"The enterprise network monitoring system is experiencing intermittent failures in triggering alerts for specific network segments. Manual adjustments to monitoring configurations are needed, and a detailed investigation into the network topology and device status is required. Please review the following actions: 1. Inspect monitoring configurations for affected segments. 2. Verify network topology and device status. 3. Adjust configurations as necessary to ensure alerts are triggered correctly.",High,Network
+Please grant me access to Illustrator & Photoshop tools as they are essential for my design tasks.,Medium,Access
+"Hi IT, Please grant access to Asana for j.doe@acme.co. Thanks.",Medium,Access
+"Hi, I'd like to report inconsistent access to department-specific resources despite correct permissions and network configuration. Investigation may be required to resolve access issues.",High,Network
+Inability to access specific folders on shared network drive despite correct mapping and permissions.,Medium,Network
 Hi there! I'm having trouble establishing a secure VPN connection even though I've followed all the configuration guidelines and used the correct credentials. Can you help me out? Thanks!,Medium,Network
-"Hi team, I'm experiencing persistent issues with our enterprise cloud storage system where file access permissions intermittently reset to default settings. This requires a detailed investigation and manual adjustment of permission configurations. Could you also inspect the user access logs? Thanks, Alex Johnson",High,Software
-"Attention Acme IT, A user is experiencing difficulties connecting to their remote workstation despite having the correct network and credential configuration. Please investigate the issue and provide assistance to ensure seamless remote access",High,Network
-Requesting access to the Asana Task Board for project collaboration.,Medium,Software
-Hi IT Team! Hope you're having a great day. Could you provide me with some instructions on how to troubleshoot a slow internet connection on my company-issued smartphone? Thanks a bunch!,Medium,Network
+"Hi team, I'm experiencing persistent issues with our enterprise cloud storage system where file access permissions intermittently reset to default settings. This requires a detailed investigation and manual adjustment of permission configurations. Could you also inspect the user access logs? Thanks.",High,Software
+I'm experiencing difficulties connecting to their remote workstation despite having the correct network and credential configuration. Please investigate the issue and provide assistance to ensure seamless remote access,Medium,Network
+Requesting access to the Asana Task Board for project collaboration.,Medium,Access
+Hi IT Team! Hope you're having a great day. Could you provide me with some instructions on how to troubleshoot a slow internet connection on my company-issued smartphone? Thanks a bunch!,Low,Network
 Request for Instructions - Configuring Email Filters to Report Phishing Emails,Medium,Software
 "Hi IT Team, I'm experiencing issues with the Google Calendar integration with our third-party scheduling software. Despite having the correct configuration settings, I'm noticing inconsistent event syncing and some missing entries. Could you please assist in troubleshooting this? Thanks!",Medium,Software
-Request for step-by-step instructions to troubleshoot slow internet connection on a company-issued tablet.,Medium,Network
-Access request details. Required for handling escalated support tickets.,Medium,Access
-Grant access to Adobe XD Design Tools for the top level Acme Co design team.,Medium,Software
-"Dear IT Support Team: Assistance Required for Configuring New Hire's Access to Secure Internal Portal: User Unable to Authenticate Despite Correct Credentials and Following ""New Hire 101 FAQ"" Guidelines. Account Name: John Doe User ID: JDoe123 Description: New hire access configuration Owner Full Name: Jane Smith Status Category: Access Issue Status: Pending Resolution Access Request Date: 10/15/2023 9:00 AM Total Access Value: N/A Click on the link below to access the Portal: Secure Internal Portal (https://acme.co/secure-portal) Access Request ID: a5N8X0000005xyz Access User ID: 0052M000009PiXY Access Request Status: Notified Access Request Date: 10/15/2023 9:00 AM Access Request Assigned To: IT Support Access Request Comments: (User Type = Employee) Access Request Approver Comments: Notified - System Info - Notified User: IT Support 2023-10-15 09:00:00-0400 Access Approvals: | Step Name | Approval Status | Date | Assigned To | Depends On | Actual Approver | Approver Comments | | IT Review | Pending | 10/15/2023 9:00 AM | Jane Smith | | Jane Smith | Pending - Jane Smith 2023-10-15 09:00:00-0400 | | IT Review | Not Submitted | | Security | | | | | IT Review | Not Submitted | | IT Support | | | | Reassigned - John Doe Info - Reassigned to Jane Smith 2023-10-15 08:55:00-0400 |",High,Access
-Hello! I need access to the Premiere & After Effects tools that are essential for our video editing projects. Please ensure the necessary permissions are granted in the Creative Suite vault. cc: @John Doe,Medium,Software
-,,
+Request for step-by-step instructions to troubleshoot slow internet connection on a company-issued tablet.,Low,Network
+Requesting access to portal for handling escalated support tickets.,Medium,Access
+Grant access to Adobe XD Design Tools for the top level Acme Co design team.,Medium,Access
+"Dear IT Support Team: Assistance Required for Configuring New Hire's Access to Secure Internal Portal: User Unable to Authenticate Despite Correct Credentials and Following ""New Hire 101 FAQ"" Guidelines.",Medium,Access
+Hello! I need access to the Premiere & After Effects tools that are essential for our video editing projects. Please ensure the necessary permissions are granted in the Creative Suite vault.,Medium,Access
 "Hello IT Team, I'm reaching out because we're experiencing persistent issues with our enterprise software deployment tool. Specifically, certain application packages are intermittently failing to install on target devices. This requires a detailed investigation and manual adjustment of deployment configurations. We may also need to inspect the package integrity and compatibility settings. Your assistance in resolving this matter would be greatly appreciated!",High,Software
-Access request details. Request details: Requester email: john.doe@acme.co Requester name: John Doe Requester department: Finance Application requested: O365 Word & Excel License requested: User Request submitted at: 2024-10-05T10:15:00-07:00 Request note: Required for preparing financial reports. Request review details: Reviewed by: jane.smith@acme.co (jane.smith@acme.co) Reviewed at: 2024-10-06T11:00:00-07:00 Review status: APPROVED Fulfillment details: Fulfillment channel: internal portal Executed at: 2024-10-06T11:30:00-07:00,Medium,Software
+Requesting renewal of O365 Word & Excel License,Medium,Access
 Assistance needed for setting up a new Google Calendar and ensuring it integrates with department-specific scheduling protocols.,Medium,Software
 Hi IT! Hope you're having a great day! It seems we need access to the GH Enterprise Repositories for @jordan.smith - could someone help out with this?,Medium,Access
-I need access to the ZDesk Agent Dashboard for my role. Please grant the necessary permissions.,Medium,Software
+I need access to the ZDesk Agent Dashboard for my role. Please grant the necessary permissions.,Medium,Access
 "Hi IT Team, I'm having trouble accessing the shared network drive from my personal desktop computer. Could you please provide me with the instructions to set it up? Thanks!",Medium,Network
-"Hello IT Team, I'm experiencing a persistent slow internet connection on my workstation, even though the network is stable and all configuration settings appear correct. This issue is affecting my productivity as it takes a long time to load web pages and access online resources. I've tried restarting the computer and checking the cables, but the problem persists. Could you please assist in diagnosing and resolving this issue at your earliest convenience? Thank you! Best, John Doe",High,Network
-"Notification from JIRA
-
-JIRA Access Request
-
-This Access Request alert is to inform you that a user has requested access to a JIRA Kanban Board.
-
-The request details include:
-
-User: John Doe (j.doe@acme.co)
-
-Requested By: Self-Service Portal (it-portal@acme.co)
-
-Date: Mon, Nov 20 2023 14:32 UTC
-
-Access to this board is currently restricted. To review and approve the request, please visit the Access Management section in the JIRA Admin Console.
-
-Go to Access Management
-
-You have received this important update about your JIRA account because you are the designated admin recipient for this request type. You can manage these requests or change the email recipients in the Access Management section of the Admin Console.
-
-Acme Co 123 Innovation Drive Tech City, TX 75001
-
- 
-You received this message because you are subscribed to the Acme Co IT Support group. To unsubscribe from this group and stop receiving emails from it, send an email to itsupport+unsubscribe@acme.co.",Medium,Access
-Ticket for Jamie. Reached out via email today needing access to specific Slack channels for the marketing team.,Medium,Access
-"Owner: John Doe
-Issue: Persistent problems with enterprise email distribution list
-Details: Specific recipients intermittently fail to receive messages, requiring detailed investigation and manual adjustment of distribution list settings and potential inspection of email server logs.",High,Access
-Unauthorized access alerts investigation.,High,Security
-"Hi team, Jordan Smith has requested access to Adobe Spark Design Tools which has been approved by the design department. Creating this access request to provide the necessary permissions for Jordan to utilize Adobe Spark for upcoming projects. Please ensure access is granted by Friday to align with project timelines.",Medium,Software
+"Hello IT Team, I'm experiencing a persistent slow internet connection on my workstation, even though the network is stable and all configuration settings appear correct. This issue is affecting my productivity as it takes a long time to load web pages and access online resources. I've tried restarting the computer and checking the cables, but the problem persists. Could you please assist in diagnosing and resolving this issue at your earliest convenience? Thank you!",High,Network
+"Hello, reqesting access to the JIRA Kanban Board.",Medium,Access
+"Hi, could you please provide access to the specific Slack channels for the marketing team.",Medium,Access
+"Specific recipients intermittently fail to receive messages, requiring detailed investigation and manual adjustment of distribution list settings and potential inspection of email server logs.",High,Software
+Unauthorized access alerts are being received way too often. I think something's broken in the backend? Could you please look into it?,High,Security
+"Hi team, Jordan Smith has requested access to Adobe Spark Design Tools which has been approved by the design department. Creating this access request to provide the necessary permissions for Jordan to utilize Adobe Spark for upcoming projects. Please ensure access is granted by Friday to align with project timelines.",Medium,Access
 "Hi IT team, I'm having trouble with our enterprise password management system. The password synchronization across multiple applications keeps failing intermittently. Could someone look into this? It might need a detailed investigation and manual adjustment of the synchronization settings. Also, inspecting the application-specific integration points could be necessary. Thanks!",High,Software
-"Hey IT, 
-
-Our new hire is having trouble connecting to the company VPN. They've followed the ""New Hire 101 FAQ"" guidelines and entered the correct credentials, but still can't connect. Could you assist with this? Let me know if you need any additional information from my side!
-
-Thanks,
-
-Alex",High,Network
-"I am experiencing issues with my multi-monitor setup. The monitors are displaying incorrect resolution and orientation, even though I followed the connection guidelines. Could you assist with troubleshooting this?",Medium,Hardware
-Hello! I seem to have lost access to the JIRA Sprint Planning Tool. I think it might have happened when I was cleaning up my permissions and accidentally removed it. Could you help me regain access? It's crucial for my current project planning. Thank you!,Medium,Software
-"Hello IT! I need access to the GH Team Projects to collaborate effectively with the team on our ongoing projects. This will help streamline our workflow and ensure everyone is on the same page. Thank you in advance and let me know if you need any additional information. Best! Jamie Lee | Project Coordinator Acme Co. • New York, NY",Medium,Access
+"Hey IT, Our new hire is having trouble connecting to the company VPN. They've followed the ""New Hire 101 FAQ"" guidelines and entered the correct credentials, but still can't connect. Could you assist with this? Let me know if you need any additional information from my side!",Medium,Network
+"I am experiencing issues with my multi-monitor setup. The monitors are displaying incorrect resolution and orientation, even though I followed the connection guidelines. Could you assist with troubleshooting this?",Low,Hardware
+Hello! I seem to have lost access to the JIRA Sprint Planning Tool. I think it might have happened when I was cleaning up my permissions and accidentally removed it. Could you help me regain access? It's crucial for my current project planning. Thank you!,Medium,Access
+Hello IT! I need access to the GH Team Projects to collaborate effectively with the team on our ongoing projects. This will help streamline our workflow and ensure everyone is on the same page. Thank you in advance and let me know if you need any additional information.,Medium,Access
 I'm experiencing persistent slow internet connection on my workstation. The rest of the network seems stable and all configuration settings appear correct. Could you assist in diagnosing and resolving this issue?,Medium,Network
-"Hi IT Team,\n\nI'm experiencing persistent issues with our enterprise IoT device management system. Specific devices intermittently fail to report status updates, which requires a detailed investigation. I've had to manually adjust the device communication settings multiple times. Additionally, I suspect there might be issues with network connectivity or the firmware versions of these devices. Could you please look into this?\n\nThanks,\nAlex",High,Network
-"Notification from Acme IT Support
-
-Acme IT Support Image
-
-This Multi-Factor Authentication (MFA) assistance request is to inform you that a user is experiencing issues with receiving verification codes on a new mobile device despite following the correct setup steps.
-
-The request details include:
-
-User: j.doe@acme.co
-
-By: Service Account (it-support@acme.co)
-
-Date: Mon, Oct 30 2023 14:45 UTC
-
-Support Center is not enabled for this issue. Support Center can provide additional details, investigation options, and remediation recommendations. To enable, turn on support in the issue detail page.
-
-Go to Issue Details
-
-You have received this important update about your Acme account because you are the designated admin recipient for this support type. You can turn off these notifications or change the email recipients in the Support section of the Admin Console.
-
-Acme Inc. 123 Innovation Drive Tech City, CA 94043
-
- 
-You received this message because you are subscribed to the Acme Groups ""IT Support"" group. To unsubscribe from this group and stop receiving emails from it, send an email to itsupport+unsubscribe@acme.co.",Medium,Access
+"Hi IT Team, I'm experiencing persistent issues with our enterprise IoT device management system. Specific devices intermittently fail to report status updates, which requires a detailed investigation. I've had to manually adjust the device communication settings multiple times. Additionally, I suspect there might be issues with network connectivity or the firmware versions of these devices. Could you please look into this?",High,Network
+I'm experiencing issues with receiving verification codes on a new mobile device despite following the correct setup steps,Medium,Access
 "Hi IT Team, I'm trying to set up a new Google Calendar for our recurring team meeting series, but I'm not sure how to go about it. Could you provide some instructions or guidance on this? Thanks!",Medium,Software
-"Hi, I've been following the ""Securing Your Workstation"" guidelines diligently, but my workstation has been flagged for unusual login activity. Can someone please help investigate and resolve this issue? Thanks!",High,Security
-"Notification from Zoom
-
-Zoom Account Image
-
-This Access Request alert is to inform you that a request has been made to enable Pro features on your Zoom account.
-
-The request details include:
-
-User: a.smith@acme.co
-
-By: Service Account (it-service@acme.co)
-
-Date: Mon, Oct 30 2023 14:45 UTC
-
-Account Center is not enabled for this feature. Account Center can provide additional details, feature options, and upgrade recommendations. To enable, turn on features in the account detail page.
-
-Go to Account Details
-
-You have received this important update about your Zoom account because you are the designated admin recipient for this request type. You can turn off these alerts or change the email recipients in the Account section of the Admin Console.
-
-Zoom Video Communications, Inc. 55 Almaden Blvd, San Jose, CA 95113
-
- 
-You received this message because you are subscribed to the Zoom Groups ""Account Management"" group. To unsubscribe from this group and stop receiving emails from it, send an email to account+unsubscribe@acme.co.",Medium,Access
-"Hey IT Team, I hope you're doing well! I'm reaching out to request hosting privileges for Zoom webinars. To facilitate this, could you please provide me with the following details: - Any specific requirements or prerequisites for hosting webinars - Instructions on how to set up and manage a webinar effectively - Any training sessions available for new hosts Once I have this information, I will be able to proceed with scheduling and hosting webinars for our team. Additionally, if there are any permissions or settings I need to adjust in my Zoom account, please let me know. Thank you for your assistance. If you have any questions or need further information, feel free to reach out. Best regards, Alex Johnson",Medium,Software
-Please provide me with access to Adobe Acrobat Pro Tools,Medium,Software
-"Hi IT, I hope you're doing well! If possible, please direct this ticket to Kevin Bobson. We are experiencing persistent issues with our enterprise cloud-based document collaboration tool. The real-time editing features intermittently fail to synchronize changes across team members. This requires a detailed investigation and manual adjustment of synchronization settings. Additionally, there might be a need to inspect network latency and server-side processing workflows. Please let me know if there are any questions or concerns. Your assistance is greatly appreciated! Best, Alex",High,Software
+"Hi, I've been following the ""Securing Your Workstation"" guidelines diligently, but my workstation has been flagged for unusual login activity. Can someone please help investigate and resolve this issue? Thanks!",Medium,Security
+Please enable Pro features on my Zoom account.,Medium,Software
+"Hey IT Team, I hope you're doing well! I'm reaching out to request hosting privileges for Zoom webinars. To facilitate this, could you please provide me with the following details: - Any specific requirements or prerequisites for hosting webinars - Instructions on how to set up and manage a webinar effectively - Any training sessions available for new hosts Once I have this information, I will be able to proceed with scheduling and hosting webinars for our team. Additionally, if there are any permissions or settings I need to adjust in my Zoom account, please let me know. Thank you for your assistance. If you have any questions or need further information, feel free to reach out.",Medium,Software
+Please provide me with access to Adobe Acrobat Pro Tools,Medium,Access
+"Hi IT, I hope you're doing well! If possible, please direct this ticket to Kevin Bobson. We are experiencing persistent issues with our enterprise cloud-based document collaboration tool. The real-time editing features intermittently fail to synchronize changes across team members. This requires a detailed investigation and manual adjustment of synchronization settings. Additionally, there might be a need to inspect network latency and server-side processing workflows. Please let me know if there are any questions or concerns. Your assistance is greatly appreciated!",High,Software
 "I need assistance with accessing the shared network drive from my company-issued smartphone. Please provide step-by-step instructions or necessary configurations required to connect to the drive. Ensure that the access is secure and complies with company policies. If there are any specific apps or VPN settings needed, kindly include those details as well.",Medium,Network
 Can you please grant access to Jane Doe for #company-comms and #team-updates channels on Slack?,Medium,Access
-"Hello team - I accidentally marked a phishing email as safe and now it's in my inbox. Can you assist with a manual review and escalate if necessary? Thanks, Alex",High,Security
-"Hey IT Team, I hope you're doing well! I'm reaching out because I'm having trouble accessing specific internal resources on our intranet, even though my permissions and network settings seem to be correct. Could you please help me troubleshoot this issue? Here are a few details that might help: - The specific resources I'm unable to access - Any recent changes to my account or network settings - Any error messages I'm receiving If you need any more information from my side, just let me know. Looking forward to your guidance on this. Thank you for your assistance. Best regards, Alex",Medium,Network
-"Hey IT Team, Can we set up access to Adobe Fresco for Jamie? Thanks and have a great day!",Medium,Software
+Hello team - I accidentally marked a phishing email as safe and now it's in my inbox. Can you assist with a manual review and escalate if necessary? Thanks.,High,Security
+"Hey IT Team, I hope you're doing well! I'm reaching out because I'm having trouble accessing specific internal resources on our intranet, even though my permissions and network settings seem to be correct. Could you please help me troubleshoot this issue? Here are a few details that might help: - The specific resources I'm unable to access - Any recent changes to my account or network settings - Any error messages I'm receiving If you need any more information from my side, just let me know. Looking forward to your guidance on this. Thank you for your assistance. Best regards.",Medium,Network
+"Hey IT Team, Can we set up access to Adobe Fresco for Jamie? Thanks and have a great day!",Medium,Access
 "Hi IT Team, I'm in the process of setting up a new office printer on my company-issued laptop and could use some guidance. Could you provide step-by-step instructions or direct me to a resource that outlines the process? I'm aiming to have this set up by the end of the week, as I need to print several documents for an upcoming meeting. If there are any specific drivers or software I need to install, please let me know. Thank you for your assistance!",Medium,Hardware
-Could you please grant access to O365 PowerPoint & OneNote for our team member? I've cc'd their supervisor for approval. They're stepping in for a project and need these tools to prepare and organize content effectively.,Medium,Software
-"Owner: John Doe
-Issue: User Unable to Complete Setup Due to Incompatibility with Existing Security Software on Workstation",High,Security
-"Hi! I'm experiencing persistent issues with our enterprise software licensing server. The license allocations intermittently fail to update, which requires a detailed investigation and manual adjustment of the licensing server configurations. Could you also inspect the network connectivity and server logs? Thank you!  Cheers! Alex Johnson | IT Specialist | He/Him/His Acme Co (https://acme.co/) • IT Support (https://support.acme.co/) • Contact me (https://acme.co/contact-alex)",High,Software
-"This is a follow-up to your previous request #11947 ""Re: Persistent Issues with Enterprise VoIP System: C..."" any response on this please??",High,Network
-"Hey IT! I'm experiencing persistent issues with our enterprise cloud-based data visualization tool. The dashboards intermittently fail to load data correctly, and it's requiring me to manually adjust data source configurations. I think there might be something off with the API integration settings as well. Could you look into this for me? Please let me know if you need any more details from my end. Thanks! -Alex",High,Software
-Hello IT! Can you please provide instructions on setting up remote desktop access on my new company-issued tablet? I need to ensure I can access all necessary resources remotely. **Email**: user@acme.co,Medium,Network
-,,
-"Hi there IT Team, I'm reaching out to see if I can get access to the Slack Direct Messaging feature. I noticed that I currently don't have the ability to send direct messages to my colleagues, and I wanted to check in with y'all to see if this is something that can be enabled for my account. Thanks in advance! Alex Johnson | Product Manager Acme Co. (https://acme.co/) • Connect with me (https://acme.co/alex_johnson) 555.123.4567",Medium,Software
-"Notification from Google
-
-Google Workspace Image
-
-This Access Request alert is to inform you that a user has requested access to GDocs and GSlides collaboration tools on your domain.
-
-The request details include:
-
-User: jane.doe@acme.co
-
-Requested By: User Account (jane.doe@acme.co)
-
-Date: Mon, Oct 30 2023 10:15 UTC
-
-Alert Center is not enabled for this request. Alert Center can provide additional details, investigation options, and approval recommendations. To enable, turn on alerts in the request detail page.
-
-Go to Request Details
-
-You have received this important update about your Google Workspace account because you are the designated admin recipient for this request type. You can turn off these alerts or change the email recipients in the Rules section of the Admin Console.
-
-Google LLC 1600 Amphitheatre Parkway Mountain View, CA 94043
-
- 
-You received this message because you are subscribed to the Google Groups ""Collaboration Tools"" group. To unsubscribe from this group and stop receiving emails from it, send an email to collaboration+unsubscribe@acme.co.",Medium,Access
+Could you please grant access to O365 PowerPoint & OneNote for our team member? I've cc'd their supervisor for approval. They're stepping in for a project and need these tools to prepare and organize content effectively.,Medium,Access
+Unable to Complete Setup Due to Incompatibility with Existing Security Software on Workstation,High,Security
+"Hi! I'm experiencing persistent issues with our enterprise software licensing server. The license allocations intermittently fail to update, which requires a detailed investigation and manual adjustment of the licensing server configurations. Could you also inspect the network connectivity and server logs? Thank you!",High,Software
+"This is a follow-up to my previous request - ""Persistent Issues with Enterprise VoIP System"". Any response on this please??",High,Network
+"Hey IT! I'm experiencing persistent issues with our enterprise cloud-based data visualization tool. The dashboards intermittently fail to load data correctly, and it's requiring me to manually adjust data source configurations. I think there might be something off with the API integration settings as well. Could you look into this for me? Please let me know if you need any more details from my end. Thanks!",High,Software
+Hello IT! Can you please provide instructions on setting up remote desktop access on my new company-issued tablet? I need to ensure I can access all necessary resources remotely.,Medium,Software
+"Hi there IT Team, I'm reaching out to see if I can get access to the Slack Direct Messaging feature. I noticed that I currently don't have the ability to send direct messages to my colleagues, and I wanted to check in with y'all to see if this is something that can be enabled for my account. Thanks in advance!",Medium,Software
+"Hi, requesting access to GDocs and GSlides collaboration tools of the company.",Medium,Access
 I need help setting up remote desktop access on my personal laptop. I'm not sure how to configure it properly and would appreciate some guidance.,Medium,Network
 "User experiencing persistent issues with enterprise remote access solution where specific users intermittently fail to authenticate, requiring detailed investigation and manual adjustment of user access policies and potential inspection of authentication server logs.",High,Network
-"Hi, I'm unable to receive verification codes for multi-factor authentication due to suspected carrier-specific SMS delivery issues, despite following the correct setup steps. Could you please assist? Thanks, Alex Johnson",High,Security
+"Hi, I'm unable to receive verification codes for multi-factor authentication due to suspected carrier-specific SMS delivery issues, despite following the correct setup steps. Could you please assist?",High,Security
 "Hi there, I'm experiencing persistent issues with our enterprise software update management system. Specific updates intermittently fail to deploy across multiple devices. Could you please investigate this and advise on how to proceed?",High,Software
-"Notification from Acme VPN Service
-
-
-Acme VPN Image
-
-
-This VPN connection issue alert is to inform you that the user is experiencing frequent disconnections and inconsistent access to internal resources despite correct configuration and credentials.
-
-The alert details include:
-
-
-User: user@acme.co (user@acme.co)
-
-By: VPN Service Account (vpn-service@acme.co)
-
-Date: Mon, Oct 30 2023 09:15 UTC
-
-Alert Center is not enabled for this rule. Alert Center can provide additional details, investigation options, and remediation recommendations. To enable, turn on alerts in the rule detail page.
-
-
-Go to Rule Details
-
-
-You have received this important update about your Acme VPN account because you are the designated admin recipient for this alert type. You can turn off these alerts or change the email recipients in the Rules section of the Admin Console.
-
-Acme LLC 1234 Elm Street Anytown, USA
-
-
- 
-You received this message because you are subscribed to the Acme Groups ""Network Support"" group. To unsubscribe from this group and stop receiving emails from it, send an email to network+unsubscribe@acme.co.",High,Network
-"Hi Team,
-
-Hope you're doing well! I'm reaching out to document and troubleshoot some persistent issues I've been experiencing with our enterprise cloud-based machine learning platform. Specifically, my model training jobs are intermittently failing to complete, which requires a detailed investigation and manual adjustment of resource allocation settings. Could you please confirm the following information:
-
-1. Are there any known issues with the current resource allocation settings on the platform? If so, could you provide guidance on how to adjust them effectively?
-2. Is there a recommended workflow for inspecting data preprocessing steps that might be causing these failures?
-3. Are there any logs or diagnostic tools available that could help identify the root cause of these intermittent failures?
-
-Please let me know if you need any additional information from my end. Looking forward to your guidance on resolving this issue.
-
-Best regards,
-
-Alex from Acme Co.",High,Software
-"Notification from Acme IT Support
-
-Acme Wireless Presentation System Alert
-
-This intermittent screen sharing failure alert is to inform you that a persistent issue has been detected with the enterprise wireless presentation system.
-
-The alert details include:
-
-Issue: Intermittent Screen Sharing Failure
-
-By: User Report (it-support@acme.co)
-
-Date: Mon, Oct 30 2023 09:00 UTC
-
-Detailed investigation and manual adjustment of network settings are required. Potential inspection of device compatibility and firmware updates may also be necessary. Alert Center is not enabled for this rule. Alert Center can provide additional details, investigation options, and remediation recommendations. To enable, turn on alerts in the rule detail page.
-
-Go to Rule Details
-
-You have received this important update about your Acme Wireless Presentation System because you are the designated admin recipient for this alert type. You can turn off these alerts or change the email recipients in the Rules section of the Admin Console.
-
-Acme Co 1234 Elm Street Springfield, IL 62701
-
- 
-You received this message because you are subscribed to the Acme Groups ""IT Support"" group. To unsubscribe from this group and stop receiving emails from it, send an email to itsupport+unsubscribe@acme.co.",High,Network
-"Issue: Persistent issues with enterprise CDN where specific assets intermittently fail to load.\n\nAction Required: Detailed investigation and manual adjustment of CDN configuration settings. Potential inspection of origin server connectivity.\n\nApproval Required?\nYes\n\nApprovers:\nmanager.jones@acme.co MANAGER\ntech.lead@acme.co\n\nApproved By:\nmanager.jones@acme.co\n\nApproved At:\n2024-09-15T11:45:00-07:00\n\nApproved By:\ntech.lead@acme.co\n\nApproved At:\n2024-09-16T14:30:00-07:00\n\nApproval Note:\nProceed with CDN configuration adjustments.\n\nRequester:\nAlex Johnson\nNetwork Operations Specialist\nManager: manager.jones@acme.co\n\nRequest Date:\nSep 16, 2024\n\nRequest Note:\nNeed to ensure seamless asset delivery for end-users.",High,Network
+I wanted to inform you that I'm experiencing frequent disconnections and inconsistent access to internal resources despite correct configuration and credentials.,High,Network
+"Hi Team, Hope you're doing well! I'm reaching out to document and troubleshoot some persistent issues I've been experiencing with our enterprise cloud-based machine learning platform. Specifically, my model training jobs are intermittently failing to complete, which requires a detailed investigation and manual adjustment of resource allocation settings.",High,Software
+This intermittent screen sharing failure alert is to inform you that a persistent issue has been detected with the enterprise wireless presentation system.,High,Network
+Persistent issues with enterprise CDN where specific assets intermittently fail to load.,High,Network
 "User experiencing persistent issues with enterprise document scanning system where scanned documents intermittently fail to upload to the document management system, requiring detailed investigation and manual adjustment of scanning software settings and potential inspection of network connectivity and file format compatibility.",High,Software
-"Hi,
-
-I'm working on a new project and need access to the Adobe Stock Library to find suitable images and assets. However, it seems my current permissions don't allow me to access the library.
-
-Could you please assist me in getting the necessary access?
-
-Thanks,
-Alex Johnson",Medium,Software
-"Hey IT, Could you provide the instructions for setting up email signatures for new hires using our company email system? This will help streamline the onboarding process for our new team members. CC'ing my manager Sarah. Thanks, Alex",Medium,Access
-"Hello IT Team,
-
-I'm experiencing persistent issues with our enterprise virtual reality training platform. The VR sessions intermittently fail to load correctly, which requires a detailed investigation and manual adjustment of the VR software settings. Additionally, there might be a need to inspect hardware compatibility and network bandwidth.
-
-Could someone assist with this please?
-
-
-
-Jordan  |  Training Coordinator
-
-Acme Co (https://acme.co/)   •  New York, NY •  they/them",High,Software
+"Hi, I'm working on a new project and need access to the Adobe Stock Library to find suitable images and assets. However, it seems my current permissions don't allow me to access the library. Could you please assist me in getting the necessary access?",Medium,Access
+"Hey IT, Could you provide the instructions for setting up email signatures for new hires using our company email system? This will help streamline the onboarding process for our new team members. CC'ing my manager Sarah.",Medium,Software
+"Hello IT Team, I'm experiencing persistent issues with our enterprise virtual reality training platform. The VR sessions intermittently fail to load correctly, which requires a detailed investigation and manual adjustment of the VR software settings. Additionally, there might be a need to inspect hardware compatibility and network bandwidth.",High,Software
 "Hello IT Team, I'm experiencing persistent issues with our enterprise data warehouse where the scheduled ETL processes intermittently fail to complete. This requires a detailed investigation and manual adjustment of the ETL workflow configurations. Additionally, there might be a need to inspect the data source connectivity and transformation logic. Could you please look into this at your earliest convenience? Thank you!",High,Software
 Hi team! I need to back up data from my company-issued smartphone using the approved software. Could you provide me with the instructions to do this? Please let me know if you need any more information from my side. Thank you!,Medium,Software
-"Hi team, I'm experiencing persistent issues with our enterprise DRM system where access to protected content intermittently fails. This requires a detailed investigation and manual adjustment of DRM settings. Could you also inspect the user authentication and content licensing protocols? I'm reaching out from my personal email to ensure this gets through. Thanks! Alex Doe",High,Software
-I would like to request access to the SFDC CRM Dashboard. Manager = John Doe.,Medium,Software
-"User experiencing persistent issues with enterprise network access control (NAC) system where specific devices intermittently fail to authenticate, requiring detailed investigation and manual adjustment of NAC policies and potential inspection of device-specific network configurations. Request details: Requester email: jane.doe@acme.co Requester name: Jane Doe Requester department: IT Support Devices affected: Laptops, Mobile Devices Issue observed since: 2024-07-15T09:00:00-07:00 Request note: Please prioritize as this impacts multiple users.",High,Network
+"Hi team, I'm experiencing persistent issues with our enterprise DRM system where access to protected content intermittently fails. This requires a detailed investigation and manual adjustment of DRM settings. Could you also inspect the user authentication and content licensing protocols? I'm reaching out from my personal email to ensure this gets through. Thanks!",High,Software
+I would like to request access to the SFDC CRM Dashboard.,Medium,Access
+"I'm experiencing persistent issues with enterprise network access control (NAC) system where specific devices intermittently fail to authenticate, requiring detailed investigation and manual adjustment of NAC policies and potential inspection of device-specific network configurations.",High,Network
 "Hi IT Team, I'm encountering persistent issues with our enterprise cloud-based video editing software. The rendering processes intermittently fail to complete, and it's becoming quite a hassle. I've tried adjusting the rendering settings manually, but the problem persists. Could you please investigate this further? It might require a detailed inspection of the server-side processing resources. Thanks!",High,Software
 Hi IT! Can you please grant access to the Asana workspace for our new team members? They need to collaborate on ongoing projects and currently don't have the necessary permissions. Let me know if you need anything from our side - I've copied in Alex to assist with any approvals.,Medium,Software
-,,
 "User experiencing persistent issues with enterprise document translation system where translated documents intermittently fail to retain original formatting, requiring detailed investigation and manual adjustment of translation settings and potential inspection of document template configurations.",High,Software
-"Hey Team, I'm experiencing persistent issues with our enterprise network storage system. The file access speeds intermittently degrade, and it seems to require a detailed investigation. Could you look into the storage configuration settings and possibly inspect the network infrastructure and hardware components? Thanks, Alex",High,Network
-"Hi,
-
-I'm having trouble with my multi-factor authentication. My hardware token seems to be malfunctioning, and I'm unable to authenticate. Could I get a replacement token? This is quite urgent as I need access to my accounts.
-
-Thanks
-
-Alex",High,Hardware
+"Hey Team, I'm experiencing persistent issues with our enterprise network storage system. The file access speeds intermittently degrade, and it seems to require a detailed investigation. Could you look into the storage configuration settings and possibly inspect the network infrastructure and hardware components? Thanks.",High,Network
+"Hi, I'm having trouble with my multi-factor authentication. My hardware token seems to be malfunctioning, and I'm unable to authenticate. Could I get a replacement token? This is quite urgent as I need access to my accounts.",High,Hardware
 "Assistance required to investigate and resolve a security alert on my workstation. Despite following the 'Securing Your Workstation' guidelines, I am unable to apply the recommended security patches. Please advise on the next steps to ensure my workstation is secure.",High,Security
 "Hello IT, Can you please grant me access to the SF CRM System? I need it for my upcoming project. Thanks!",Medium,Access
-"Hi,
-
-I’m trying to access the shared network drive from my company-issued tablet, and I followed the instructions provided, but I’m not sure if I did it correctly.
-
-I’m getting a message saying:
-Access Denied: You do not have the necessary permissions.
-
-Is there something I’m missing?
-
-Thanks,
-Alex Johnson",Medium,Network
-I need admin access to our Zoom account to manage user settings and webinars. Please grant the necessary permissions.,Medium,Software
+"Hi, I'm trying to access the shared network drive from my company-issued tablet, and I followed the instructions provided, but I'm not sure if I did it correctly. I'm getting a message saying:
+Access Denied: You do not have the necessary permissions.",Medium,Network
+I need admin access to our Zoom account to manage user settings and webinars. Please grant the necessary permissions.,Medium,Access
 "Hello IT, I am having trouble completing the setup for Multi-Factor Authentication due to conflicting security policies between our corporate and departmental IT systems. Could you please assist in resolving this issue? The goal is to ensure seamless integration without compromising security protocols. Please let me know if you need any further information or have any questions. Thank you.",High,Security
-How do I access the shared network drive from my personal laptop?,Medium,Network
-It seems like the enterprise cloud-based identity verification system is acting up again. Some user verifications are intermittently failing to complete. This requires a detailed investigation and possibly a manual adjustment of the verification process settings. We might also need to inspect the integration with external identity databases.,High,Software
-"Notification from Acme Cloud Services
-
-Acme Cloud Storage Image
-
-This Password Reset Request is to inform you that a user has requested instructions for resetting a forgotten password for the company's cloud storage service.
-
-The request details include:
-
-User: cloud.user@acme.co
-
-By: Self-Service Portal (user-portal@acme.co)
-
-Date: Wed, Oct 25 2023 15:45 UTC
-
-Support Center is not enabled for this request. Support Center can provide additional details, step-by-step instructions, and troubleshooting tips. To enable, turn on support in the user settings page.
-
-Go to User Settings
-
-You have received this important update about your Acme Cloud account because you are the designated admin recipient for this request type. You can turn off these notifications or change the email recipients in the Notifications section of the Admin Console.
-
-Acme Corporation 123 Innovation Drive Tech City, TX 75001
-
- 
-You received this message because you are subscribed to the Acme Groups ""Cloud Support"" group. To unsubscribe from this group and stop receiving emails from it, send an email to cloudsupport+unsubscribe@acme.co.",Medium,Access
+How do I access the shared network drive from my personal laptop?,Medium,Access
+It seems like the enterprise cloud-based identity verification system is acting up again. Some user verifications are intermittently failing to complete. This requires a detailed investigation and possibly a manual adjustment of the verification process settings. We might also need to inspect the integration with external identity databases.,High,Security
+Pls give instructions for resetting a forgotten password for the company's cloud storage service. Username is cloud.user@acme.co,Medium,Access
 Hi! I noticed that I don't have access to the Pro features in DBox anymore. Could you help me regain access to those? Thanks!,Medium,Access
-"Hi IT Team,\n\nI'm experiencing a slow internet connection on my company-issued desktop computer. Could you please provide instructions on how to troubleshoot this issue? Here are some details:\n * Device: Desktop Computer\n * Location: Office\n * Issue: Slow Internet Connection\n * Network: AcmeNet\n\nFor reference, please see the network configuration guide here [https://acme.co/network-guide].\nNext Steps\n * Check network settings\n * Run diagnostic tools\n * Verify connection speed\n\nThanks,\nJohn Doe\n[https://acme.co/johndoe/contact]",Medium,Network
-,,
-Hello - I need access to the JIRA Issue Tracking System for project management purposes. Could you please assist in granting me the necessary permissions? Thank you!,Medium,Software
-"Hi IT Team,
-
-We're encountering persistent issues with our enterprise DLP system where specific data transfer policies intermittently fail to enforce. This requires a detailed investigation and manual adjustment of policy configurations. Additionally, we may need to inspect network traffic logs to identify any underlying issues.
-
-For reference, please see the list of affected policies here [https://acme.co/dlp-policies].
-
-Next Steps
- * Investigate the root cause of policy enforcement failures
- * Adjust policy configurations as necessary
- * Review network traffic logs for anomalies
-
-Thanks,
-Security Team
-[https://acme.co/security-team]",High,Security
-"Hi IT Team! I'm experiencing persistent issues with our enterprise cloud-based customer support platform. Ticket notifications are intermittently failing to send to the assigned agents, which is causing delays in response times. I've tried adjusting the notification settings manually, but the problem persists. It seems like there might be an issue with the email server integration. Could you please investigate this matter? Let me know if you need any additional information from my side. Thanks a ton for looking into this! Cheers, Alex",High,Software
-"Name: Alex Johnson Email: alex.johnson@acme.co Position: Analyst Manager: Jamie Smith Team: Acme Co, IT Support Can you help diagnose and resolve a persistent slow internet connection on my workstation? The network is stable and settings are correct, but the issue persists. Best, Alex",Medium,Network
-"I'm experiencing persistent issues with our enterprise cloud-based e-learning platform. The course content intermittently fails to load, and it requires a detailed investigation. I believe there might be a need for manual adjustment of content delivery settings. Additionally, an inspection of network connectivity and user account configurations might be necessary. Please assist.",High,Software
-"Hi IT,
-
-I'm having trouble with our cloud-based financial reporting tool. The data exports are failing intermittently, and it's becoming a hassle. Could you look into the export configurations and maybe check the data source connectivity and report generation workflows?
-
-
-
-Jordan Lee | Financial Analyst
-
-Acme Co. • New York, NY",High,Software
+"Hi IT Team, I'm experiencing a slow internet connection on my company-issued desktop computer. Could you please provide instructions on how to troubleshoot this issue?",Low,Network
+Hello - I need access to the JIRA Issue Tracking System for project management purposes. Could you please assist in granting me the necessary permissions? Thank you!,Medium,Access
+"Hi IT Team, We're encountering persistent issues with our enterprise DLP system where specific data transfer policies intermittently fail to enforce. This requires a detailed investigation and manual adjustment of policy configurations. Additionally, we may need to inspect network traffic logs to identify any underlying issues.",High,Security
+"Hi IT Team! I'm experiencing persistent issues with our enterprise cloud-based customer support platform. Ticket notifications are intermittently failing to send to the assigned agents, which is causing delays in response times. I've tried adjusting the notification settings manually, but the problem persists. It seems like there might be an issue with the email server integration. Could you please investigate this matter? Let me know if you need any additional information from my side. Thanks a ton for looking into this!",High,Software
+"Can you help diagnose and resolve a persistent slow internet connection on my workstation? The network is stable and settings are correct, but the issue persists.",Low,Network
+I'm getting this error: Your data transformation script failed to execute due to compatibility issues with the data source. Please review the script configuration and data source settings. Script: Transform_Sales_Data_2023 Suggested Action: Verify data source compatibility and adjust script parameters accordingly.,Medium,Software
+"Hi IT, I'm having trouble with our cloud-based financial reporting tool. The data exports are failing intermittently, and it's becoming a hassle. Could you look into the export configurations and maybe check the data source connectivity and report generation workflows?",High,Software
 Requesting instructions on backing up data from a company-issued laptop using company-approved software.,Medium,Software
-"Hi IT Team, Can you please provide access to the T-List Project Management Tool for our new team members? They will need full access to manage tasks and collaborate on the upcoming projects. Let me know if you have any questions. Thank you!  Alex Johnson | Project Coordinator Acme Co.",Medium,Software
-User is unable to access specific internal applications despite a successful VPN connection and correct configuration settings.,High,Network
+"Hi IT Team, Can you please provide access to the T-List Project Management Tool for our new team members? They will need full access to manage tasks and collaborate on the upcoming projects. Let me know if you have any questions. Thank you!",Medium,Access
+I'm unable to access specific internal applications despite a successful VPN connection and correct configuration settings.,High,Network
 "As of 10/15 10:00 AM EST, I've been experiencing persistent issues with our enterprise cloud-based HR management system where employee records intermittently fail to update correctly. This requires a detailed investigation and manual adjustment of data synchronization settings. I've attempted to manually sync the data, checked the integration settings, and consulted the system's help resources, but the problem persists. It seems there might be an issue with the integration with our external payroll systems. The current time is one of those rare moments where the system appears to be functioning, allowing me to submit this ticket.",High,Software
-"Hello IT, I am requesting access to the ZDesk Ticketing System for our new team member, Jordan Smith. Jordan will be handling customer support queries and needs to be set up with the appropriate permissions to manage tickets effectively. Could you please ensure that Jordan has access to all necessary features within the system? Additionally, if there are any training materials or sessions available, please let us know so we can get Jordan up to speed quickly. Thank you for your assistance in getting this sorted out. Best, Alex",Medium,Access
+"Hello IT, I am requesting access to the ZDesk Ticketing System for our new team member, Jordan Smith. Jordan will be handling customer support queries and needs to be set up with the appropriate permissions to manage tickets effectively. Could you please ensure that Jordan has access to all necessary features within the system? Additionally, if there are any training materials or sessions available, please let us know so we can get Jordan up to speed quickly. Thank you for your assistance in getting this sorted out.",Medium,Access
 "Hey team, I'm experiencing persistent issues with our enterprise cloud-based video conferencing platform. The screen sharing feature intermittently fails to initiate, which is quite disruptive during meetings. I believe this might require a detailed investigation into user permissions and possibly an inspection of network bandwidth and application settings. Could you please look into this? Thanks!",High,Software
-"Hello IT Team, Could you please grant me access to set up GitHub Actions? I'm currently working on a project that requires this functionality. Appreciate your help! Best, Alex",Medium,Software
+"Hello IT Team, Could you please grant me access to set up GitHub Actions? I'm currently working on a project that requires this functionality. Appreciate your help!",Medium,Access
 "Hi IT! I've been trying to sync files to the department-specific cloud storage as per the ""New Hire 101 FAQ"" guidelines, but I'm unable to do so despite entering the correct credentials. Any help is appreciated!",Medium,Software
-"The following issue has been observed with the enterprise cloud-based file synchronization service. Specific folders intermittently fail to sync across devices, requiring detailed investigation and manual adjustment of sync settings. Potential inspection of file permissions and network connectivity is needed. Manual checks required: 1. [Sync Settings](https://acme.co/sync-settings) 2. [File Permissions](https://acme.co/file-permissions) Verify if the network connectivity is stable. If issues persist, please escalate to [Network Team](https://acme.co/network-support) with information below requesting further analysis. User: John Doe Email: john.doe@acme.co Devices: J.Doe-Laptop, J.Doe-Tablet",High,Software
-"Hi IT! We've been experiencing persistent issues with our enterprise cloud-based AI chatbot. Specific user queries intermittently fail to generate accurate responses. This seems to require a detailed investigation and possibly manual adjustment of the NLP model configurations. Additionally, it might be worth inspecting the quality of the training data. I've cc'd the product manager, Alex, and the lead data scientist, Jamie, for further context. Let us know if you need any more information.  Thanks, Jordan Lee | Customer Experience Specialist",High,Software
+"The following issue has been observed with the enterprise cloud-based file synchronization service. Specific folders intermittently fail to sync across devices, requiring detailed investigation and manual adjustment of sync settings. Potential inspection of file permissions and network connectivity is needed.",High,Software
+"Hi IT! We've been experiencing persistent issues with our enterprise cloud-based AI chatbot. Specific user queries intermittently fail to generate accurate responses. This seems to require a detailed investigation and possibly manual adjustment of the NLP model configurations. Additionally, it might be worth inspecting the quality of the training data. I've cc'd the product manager, Alex, and the lead data scientist, Jamie, for further context. Let us know if you need any more information.",High,Software
 "Hi IT Team, I'm encountering persistent issues with our enterprise cloud-based data integration platform. Specific data pipelines are intermittently failing to execute, which requires a detailed investigation and manual adjustment of pipeline configurations. Could you also inspect the data source connectivity and transformation logic? Thanks!",High,Software
-"Hi team, I'm experiencing an issue with my workstation where I'm unable to disable unauthorized software despite following the ""Securing Your Workstation"" guidelines. This security alert is causing disruptions in my daily tasks. Could you please assist in investigating and resolving this issue? Thank you! Best, Alex Johnson | IT Support Specialist | they/them",High,Security
-"Owner: Alex Johnson
-System: Acme Time Tracker
-Issue: Forgotten Password",Medium,Access
+"Hi team, I'm experiencing an issue with my workstation where I'm unable to disable unauthorized software despite following the ""Securing Your Workstation"" guidelines. This security alert is causing disruptions in my daily tasks. Could you please assist in investigating and resolving this issue? Thank you!",High,Security
+Forgotten Password for Acme Time Tracker,Medium,Access
 "Experiencing persistent issues with our enterprise cloud-based document signing platform. Digital signatures intermittently fail to validate, requiring detailed investigation. Manual adjustment of signature verification settings and potential inspection of certificate authority configurations may be needed.",High,Software
-"User is experiencing persistent issues with the enterprise cloud-based customer feedback system where survey responses intermittently fail to save. This requires a detailed investigation and manual adjustment of data submission settings, along with a potential inspection of server-side processing workflows.",High,Software
-,,
+"I'm experiencing persistent issues with the enterprise cloud-based customer feedback system where survey responses intermittently fail to save. This requires a detailed investigation and manual adjustment of submission settings, along with a potential inspection of server-side processing workflows.",High,Software
 "Hello, I am experiencing persistent issues with our enterprise cloud-based API gateway. Specific API requests intermittently fail to route correctly, requiring detailed investigation and manual adjustment of routing configurations. Additionally, there may be a need to inspect backend service connectivity. Please assist at your earliest convenience. Thank you!",High,Software
 "Hello! I'm experiencing some issues with my remote desktop access. :) Despite having the correct configuration settings, I'm facing screen resolution and display scaling problems. Could you please assist with the following: 1. Verify the remote desktop settings to ensure they match the local machine's resolution. 2. Check if there are any updates or patches that might resolve the scaling issues. 3. Provide guidance on any additional settings that might need adjustment to improve display quality. Thank you so much!!",Medium,Network
-"Hello, I'm reaching out to see if someone can assist with this issue (https://acme.co/ithelp/requests/1234?page=1) regarding multi-factor authentication. The user is unable to register a new device due to account lockout from previous failed attempts and needs a manual reset. The current assignee seems to be unavailable. Thank you!  Alex Johnson IT Coordinator, Acme Co acme.co",High,Access
-"Hi IT Team, I hope this message finds you well. I'm reaching out to request access to the Asana Team Board for our current project. It seems I don't have the necessary permissions to view or edit the board. Could you please assist in granting me the appropriate access? Thank you for your help! Best, Alex",Medium,Software
+"Hello, I'm reaching out to see if someone can assist with this issue (https://acme.co/ithelp/requests/1234?page=1) regarding multi-factor authentication. I'm unable to register a new device due to account lockout from previous failed attempts and needs a manual reset. The current assignee seems to be unavailable. Thank you!",High,Access
+"Hi IT Team, I hope this message finds you well. I'm reaching out to request access to the Asana Team Board for our current project. It seems I don't have the necessary permissions to view or edit the board. Could you please assist in granting me the appropriate access? Thank you for your help!",Medium,Access
 "We have a new team member, Alex Johnson (alex.johnson@acme.co), who requires access to the Asana Task List for the Marketing Project. Please ensure that Alex is granted the necessary permissions to view and edit tasks within the project.",Medium,Access
-"I need assistance with setting up my company email on my personal tablet. Could you please provide step-by-step instructions? I want to ensure that I follow the correct protocol and security measures. If there are any specific settings or apps required, kindly let me know. Thank you!",Medium,Network
-"Hi IT Team, we're experiencing persistent issues with our enterprise cloud-based virtual event platform. The live streaming sessions intermittently fail to broadcast, which requires detailed investigation and manual adjustment of streaming settings. Could you please inspect the network bandwidth and server-side configurations? Thanks!",High,Network
-"Hello, We are reaching out to provide you with the necessary instructions to configure email synchronization settings on your mobile device. This will ensure that your emails are up-to-date and accessible on the go. Please follow the steps outlined in the guide available at acme.co/email-sync-guide. If you have any questions or require further assistance, feel free to contact us at it@acme.co. Thanks! Acme IT  This email was sent to you because an Acme administrator listed you as the recipient. If you believe this was sent in error, please contact your Acme administrator. If you are unsure who this is, please contact your Helpdesk or IT Team.",Medium,Access
+"I need assistance with setting up my company email on my personal tablet. Could you please provide step-by-step instructions? I want to ensure that I follow the correct protocol and security measures. If there are any specific settings or apps required, kindly let me know. Thank you!",Medium,Software
+"Hi IT Team, we're experiencing persistent issues with our enterprise cloud-based virtual event platform. The live streaming sessions intermittently fail to broadcast, which requires detailed investigation and manual adjustment of streaming settings. Could you please inspect the network bandwidth and server-side configurations? Thanks!",High,Software
+Please provide me with the necessary instructions to configure email synchronization settings on my mobile device.,Low,Software
 "Hey IT Team, could you send over the steps to set up a new user account on the office printer? Need to get this sorted for a new team member. Thanks a bunch!",Medium,Access
 "Not sure if this is who I should be contacting but when I try to send Google Calendar event invitations to external recipients, they are not being delivered despite having the correct configuration and permissions. Any help would be appreciated. Thanks!",Medium,Software
-"Hi IT Team! Quick question - I'm experiencing persistent issues with our enterprise cloud-based data visualization tool. Specific data sources intermittently fail to connect, and it's requiring me to manually adjust the data connection settings each time. Could this be related to our network security configurations? Would appreciate a detailed investigation. Thx.",Medium,Software
-"Hi there, Can someone assist me with gaining access to the O365 SharePoint site? My manager has approved the access, but I'm still unable to access the site through the portal. I've attached screenshots below: Thanks in advance! Best, Alex",Medium,Access
-"Hey team, I recently joined the marketing department and noticed I don't have access to Google Drive and Google Calendar services. Could you please grant me the necessary permissions? Let me know if you need any additional information from my side. Best, Alex Johnson | Marketing Specialist | he/him",Medium,Access
-"Notification from Acme Cloud Services
-
-Acme Cloud Services Image
-
-This Document Search Issue alert is to inform you that the document search functionality is intermittently failing to return accurate results in your enterprise cloud-based document management system.
-
-The alert details include:
-
-User: j.doe@acme.co
-
-By: System Admin (admin@acme.co)
-
-Date: Wed, Nov 15 2023 10:45 UTC
-
-Alert Center is not enabled for this rule. Alert Center can provide additional details, investigation options, and remediation recommendations. To enable, turn on alerts in the rule detail page.
-
-Go to Rule Details
-
-You have received this important update about your Acme Cloud Services account because you are the designated admin recipient for this alert type. You can turn off these alerts or change the email recipients in the Rules section of the Admin Console.
-
-Acme Corporation 123 Innovation Drive Tech City, TC 12345
-
- 
-You received this message because you are subscribed to the Acme Groups ""IT Support"" group. To unsubscribe from this group and stop receiving emails from it, send an email to itsupport+unsubscribe@acme.co.",High,Software
+"Hi IT Team! Quick question - I'm experiencing persistent issues with our enterprise cloud-based data visualization tool. Specific data sources intermittently fail to connect, and it's requiring me to manually adjust the data connection settings each time. Could this be related to our network security configurations? Would appreciate a detailed investigation. Thx.",Medium,Network
+"Hi there, Can someone assist me with gaining access to the O365 SharePoint site? My manager has approved the access, but I'm still unable to access the site through the portal. I've attached screenshots below: Thanks in advance!",Medium,Access
+"Hey team, I recently joined the marketing department and noticed I don't have access to Google Drive and Google Calendar services. Could you please grant me the necessary permissions? Let me know if you need any additional information from my side.",Medium,Access
+"Hi, the document search functionality is intermittently failing to return accurate results in your enterprise cloud-based document management system.",High,Software
 "Hi! I've been experiencing persistent issues with our enterprise cloud-based CRM system where contact synchronization intermittently fails between the CRM and our email marketing platform. This requires a detailed investigation and manual adjustment of the synchronization settings. I suspect there might be an issue with the API integration points, hence why I'm reaching out. Could you please look into this? Thank you!",High,Software
 The O365 Outlook and Teams integration access for John Doe needs to be provisioned.,Medium,Access
 "Hey y'all, I'm having trouble accessing the ZDesk User Portal. It seems like my account doesn't have the necessary permissions to log in, and I'm getting an error message saying 'Access Denied'. I've tried resetting my password and clearing my browser cache, but no luck. Is there any chance that something changed with user access permissions recently?",Medium,Access
-"Hey team, I'm running into some persistent issues with our cloud-based inventory management system. Stock level updates are intermittently failing to reflect in real-time, which is causing some headaches. I think we might need a detailed investigation into the synchronization settings and possibly check the integration with our point-of-sale systems. Let me know if there's anything you need from me or the team to get this sorted, thanks!  Alex Jordan | Inventory Manager",High,Software
-"Hi IT,
-
-I'm trying to set up remote desktop access on my new company-issued smartphone, but I'm running into some issues. I followed the initial setup guide, but the connection doesn't seem to establish properly. I attempted to use the Remote Desktop app, but it fails to connect to the company server.
-
-I double-checked my network settings and ensured that my credentials are correct. Other apps and services on the phone are working fine, so I'm not sure what's causing the problem.
-
-Could you provide detailed instructions or troubleshoot this issue?
-
-
-Alex Johnson
-IT Specialist
-Acme Co (http://acme.co)",Medium,Network
-"Hi team, I'm having trouble accessing specific files on our shared network drive. Despite having the correct mapping and permissions, I can't view or edit certain files. My colleague (Jane Doe) is experiencing the same issue. We'd really appreciate any help you can provide! Thanks,  Alex Smith | IT Specialist Acme Co. • New York, NY • he/him",High,Network
+"Hey team, I'm running into some persistent issues with our cloud-based inventory management system. Stock level updates are intermittently failing to reflect in real-time, which is causing some headaches. I think we might need a detailed investigation into the synchronization settings and possibly check the integration with our point-of-sale systems. Let me know if there's anything you need from me or the team to get this sorted, thanks!",High,Software
+"I'm trying to set up remote desktop access on my new company-issued smartphone, but I'm running into some issues. I followed the initial setup guide, but the connection doesn't seem to establish properly. I attempted to use the Remote Desktop app, but it fails to connect to the company server. I double-checked my network settings and ensured that my credentials are correct. Other apps and services on the phone are working fine, so I'm not sure what's causing the problem. Could you provide detailed instructions or troubleshoot this issue?",Medium,Network
+"Hi team, I'm having trouble accessing specific files on our shared network drive. Despite having the correct mapping and permissions, I can't view or edit certain files. My colleague (Jane Doe) is experiencing the same issue. We'd really appreciate any help you can provide!",Medium,Access
 "Please investigate persistent issues with breakout room assignments in our enterprise video conferencing platform. Users are experiencing intermittent failures in participant assignment, requiring manual adjustments and potential inspection of user account configurations.",High,Software
-"Hi Team, I'm experiencing persistent issues with our enterprise cloud-based email archiving system. Archived emails intermittently fail to index correctly, requiring detailed investigation and manual adjustment of indexing settings. Could you please look into this and inspect the storage infrastructure? Thanks, Alex",High,Software
-"Hi IT, Could you please provide the instructions to reset a forgotten password for our HR management software? One of our team members is unable to access their account and needs guidance on how to proceed. Thanks so much!  Alex Johnson | HR Coordinator Acme Co. • New York, NY • he/him",Medium,Access
-"Hello,
-
-I am reaching out to request detailed instructions on setting up multi-factor authentication (MFA) for accessing our internal document management system. I understand the importance of securing our data and want to ensure that I follow the correct procedure.
-
-Could you please provide a step-by-step guide or direct me to the relevant resources? If there are any specific apps or devices required, kindly let me know.
-
-Thanks,
-Alex Johnson
-
-Regards, Alex Johnson",Medium,Security
-,,
-,,
+"Hi Team, I'm experiencing persistent issues with our enterprise cloud-based email archiving system. Archived emails intermittently fail to index correctly, requiring detailed investigation and manual adjustment of indexing settings. Could you please look into this and inspect the storage infrastructure? Thanks.",High,Software
+"Hi IT, Could you please provide the instructions to reset a forgotten password for our HR management software? One of our team members is unable to access their account and needs guidance on how to proceed. Thanks so much!",Medium,Access
+"Hello, I am reaching out to request detailed instructions on setting up multi-factor authentication (MFA) for accessing our internal document management system. I understand the importance of securing our data and want to ensure that I follow the correct procedure. Could you please provide a step-by-step guide or direct me to the relevant resources? If there are any specific apps or devices required, kindly let me know.",Medium,Security
 Request for detailed instructions on backing up data from a personal desktop computer using company-approved software.,Medium,Software
-"Hi team, Could someone please assist in investigating a phishing email incident? Despite our security measures, a phishing email was forwarded to external contacts. We need to understand how this happened and ensure it doesn't occur again. If there's anything you need from me, please let me know. I appreciate your help with this matter. Best,  John Doe  |  IT Support, Specialist Acme Co (https://acme.co/)   •  New York, NY",High,Security
-"IT,
-
-Could you please provide instructions on setting up VPN access on my personal mobile device for secure remote connectivity?
-
-Thanks,
-Alex",Medium,Network
+"Hi team, Could someone please assist in investigating a phishing email incident? Despite our security measures, a phishing email was forwarded to external contacts. We need to understand how this happened and ensure it doesn't occur again. If there's anything you need from me, please let me know. I appreciate your help with this matter.",High,Security
+"IT, Could you please provide instructions on setting up VPN access on my personal mobile device for secure remote connectivity?",Medium,Network
 Users are experiencing persistent issues with our enterprise cloud-based application where specific user roles intermittently fail to apply correct access permissions. This requires detailed investigation and manual adjustment of role-based access control settings. A thorough inspection of user account configurations may also be necessary.,High,Software
 "Hi IT and Security Teams, The Operations team would like to submit a ticket to the IT and Security Team to review a request for enabling access to GMail and GSheets services for our new project management initiative. Our team believes this will enhance collaboration and efficiency across departments. I have submitted this request in the #operations Slack channel and created a ticket for the IT and security teams in Jira. Additionally, I have attached documentation on the access requirements and usage guidelines: (1) A PDF summarizing the access levels needed and set-up details within GMail and GSheets (2) A document explaining steps that need to be taken to activate the services and an FAQ about the usage policies. Furthermore, I have created a Loom video at the link below that demonstrates the initial setup and usage of GMail and GSheets for project management. I figured this demo would be useful for the IT and Security teams conducting their review. Once a reviewing resource is assigned, please reach out to me to be granted access to view the Loom recording. Items #2 and #4 in the Loom recording breakdown below could be useful for the IT and Security team. The Loom recording is broken out as follows: (1) 0 - 5:00 Overview of GMail & GSheets features (2) 5:00-15:00 System-to-System Demonstration (3) 15:00-20:00 Pros/Cons (4) 20:00 - 25:00 Deployment Considerations Background on the access: -The access is required for seamless communication and data management within the project teams. -The proposed access will allow team members to send and receive emails via GMail and collaborate on documents using GSheets. -The access will not include administrative privileges. -The access can be granted to multiple team members as needed. -This is a one-way access; changes made in GSheets will not automatically update in other systems. -Can be scheduled to review access levels every quarter. Background on User Experience: -Employees will be given the option to ""opt out"" of this access within the project management tool. By doing nothing, they will automatically have access to GMail and GSheets. If they opt out, no access will be granted. -The access will appear as ""Enabled"" in the project management tool. -Employees can select their preferred settings in GMail and GSheets to ensure alignment with their work preferences. For IT/Security Teams: -Creation of a user group in the GSuite Admin Console is needed. -OAuth 2.0 credentials will need to be created for this project and shared with the Operations team. In the Loom recording, I demo the GSuite Admin Console set-up - which should take ~15-30 minutes to complete. Thank you for your support! Please reach out to me with questions. Kind regards,  Alex Anderson Project Coordinator Alex.Anderson@acme.co Acme Co | New York, NY",Medium,Access
 "Hello IT, I've been experiencing persistent issues with our enterprise cloud-based data processing platform. Specifically, certain batch jobs intermittently fail to execute. This requires a detailed investigation and manual adjustment of job scheduling settings. Could you also inspect the data source connectivity and processing logic? I've heard that others have faced similar issues. Thanks, Alex",High,Software
@@ -690,7 +387,6 @@ Intermittent query execution failures in enterprise cloud-based data warehouse.,
 Needed to configure access on personal smartphone.,Medium,Network
 "Hey IT Team, I hope you're doing well! I'm reaching out because I've been experiencing persistent issues with our enterprise cloud-based customer feedback system. Specifically, some feedback forms intermittently fail to submit, which is causing a bit of a bottleneck in our workflow. Could you please look into this? It might require a detailed investigation and manual adjustment of the form submission settings. Additionally, there might be a need to inspect the server-side processing workflows to ensure everything is functioning as expected. Your assistance in resolving this issue would be greatly appreciated. If you need any more information from my end, feel free to ask. Thanks in advance for your help! Best regards, Alex Johnson",High,Software
 "Hi IT Team, I need help setting up email notifications for calendar events on my mobile device. Can you provide step-by-step instructions? Thanks!",Medium,Software
-,,
 "Notification from Acme Cloud Services
 
 
